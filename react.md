@@ -15,7 +15,7 @@ Let's start with a informative paragraph. **This text is bolded.** But not this 
 
 <div class="divider"></div>
 
-## 參考資料
+## 目錄
 
 1. First order list item
 2. Second item
@@ -26,9 +26,8 @@ Let's start with a informative paragraph. **This text is bolded.** But not this 
 
 <div class="divider"></div>
 
----
-Footnote:
+參考資料:
 
-[^1]: 1: Footnote number one yeah baby!
+1: Footnote number one yeah baby!
 
-[^2]: 2: A footnote you can link to - [click here!](#)
+2: A footnote you can link to - [click here!](#)
