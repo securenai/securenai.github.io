@@ -53,6 +53,8 @@ gems:
 navbar:
   - slug : about
     title: About
+  - slug : react
+    title: React
   - slug : blog
     title: Blog
 
