@@ -15,7 +15,7 @@ twitter_username: "HeiswayiNrird"
 comments: true
 
 # Build settings
-permalink   : /:year/:title/
+permalink   : /:page/:title/
 markdown    : kramdown
 highlighter : rouge
 
