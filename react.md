@@ -18,7 +18,7 @@ React（有時叫`Param()`React.js或ReactJS）是一個為數據提供渲染為
 
 ## 目錄
 
-1. First order list item
+1. [**React 簡介**](/react/react#1)
 2. Second item
 
 * Unordered list can use asterisks
