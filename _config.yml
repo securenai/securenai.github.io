@@ -2,7 +2,7 @@
 # SEO settings
 title: "securenai"
 title2: "" # default: ""
-description: "Just another minimalist Jekyll theme for technical writing."
+description: "學習筆記"
 keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url: http://heiswayi.github.io/thinkspace # site url
 baseurl: null # apply repo name if use it under gh-pages branch
@@ -53,6 +53,8 @@ gems:
 navbar:
   - slug : about
     title: About
+  - slug : react
+    title: React
   - slug : blog
     title: Blog
 
