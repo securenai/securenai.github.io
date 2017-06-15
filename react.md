@@ -31,4 +31,4 @@ React（有時叫React.js或ReactJS）是一個為數據提供渲染為HTML視�
 
 1: Footnote number one yeah baby!
 
-2: https://facebook.github.io/react/
+2: [**Facebook open source**](https://facebook.github.io/react/)
