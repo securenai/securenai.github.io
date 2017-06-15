@@ -308,6 +308,7 @@ pre {
   code {
     color: inherit;
     background-color: transparent;
+    font-size: 0.9rem;
     padding: 0;
     display: block;
   }
@@ -321,7 +322,8 @@ pre {
 
     span {
       display: block;
-      padding: 0 .5em 0 1em;
+      font-size: 0.9rem;
+      padding: 4px .5em 0 1em;
       color: #ccc;
     }
   }
