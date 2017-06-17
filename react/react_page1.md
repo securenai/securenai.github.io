@@ -22,18 +22,25 @@ React的另一個優點是它屬於`宣告式編程(declarative)`，這個意思
 ```
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="http://fb.me/react-0.13.1.js"></script>  
-</head>
-<body>
-  <div id="app"></div>
-  <script>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+
       ReactDOM.render(
         <h1>Hello, world!</h1>,
-        document.getElementById('example')
+        document.getElementById('root')
       );
-  </script>
-</body>
+
+    </script>
+  </body>
+</html>
 ```
 ### JSX
 
