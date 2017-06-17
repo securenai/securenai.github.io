@@ -22,7 +22,9 @@ React的另一個優點是它屬於`宣告式編程(declarative)`，這個意思
 動態式網頁常常有動態產生或移除新的元素、或者部分重新整理的動作，這些動作會導致整個 DOM 的重新產出，比方說當我們在一個有20個項目的 list 裡加了1個項目，整個 list 會被重新產生，包含了那21個項目。
 React 則是產生一個虛擬的 DOM 這個 DOM 假設也有一個 list，同樣的狀況下，假設增加了一個 item，React 則是很聰明去跟原來前一版的 DOM 比對，判斷說因為你只有增加一個 item，我在重新 render 時，就只 render 那新增的那個 item。
 
-### 簡單的 Hello World 例子
+### 如何撰寫虛擬 DOM 元素
+
+簡單的 Hello World 例子
 ```
 <!DOCTYPE html>
 <html>
