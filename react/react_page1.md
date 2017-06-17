@@ -47,7 +47,7 @@ React 則是產生一個虛擬的 DOM 這個 DOM 假設也有一個 list，同�
 </html>
 ```
 ### JSX
-我們大可以在
+我們大可以在要寫 React 的地方每次都寫這種 `ReactDOM.render(...);` 的寫法，但
 
 
 
