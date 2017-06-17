@@ -24,6 +24,11 @@ React 則是產生一個虛擬的 DOM 這個 DOM 假設也有一個 list，同�
 
 ### 如何撰寫虛擬 DOM 元素
 
+我們要如何在虛擬 DOM 裡形容一個 DOM 元素呢?
+DOM 元素主要由三樣東西組成等
+1. 名稱 : 形容該元素是甚麼類型，是 p，還是 a，還是 h1、div....等
+2. 屬性 : 一組 key 跟 value 提供更多資訊像是 type、href....等
+3. 內容 : 有些元素有，有些沒有，例 : `<p>hello</p>` 
 簡單的 Hello World 例子
 ```
 <!DOCTYPE html>
