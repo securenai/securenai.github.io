@@ -29,6 +29,7 @@ DOM 元素主要由三樣東西組成等
 1. 名稱 : 形容該元素是甚麼類型，是 p，還是 a，還是 h1、div....等
 2. 屬性 : 一組 key 跟 value 提供更多資訊像是 type、href....等
 3. 內容 : 有些元素有，有些沒有，例 : `<p>hello</p>` 
+
 簡單的 Hello World 例子
 ```
 <!DOCTYPE html>
@@ -54,7 +55,7 @@ DOM 元素主要由三樣東西組成等
 </html>
 ```
 ### JSX
-我們大可以在要寫 React 的地方每次都寫這種 `ReactDOM.render(...);` 的寫法，但
+我們大可以在要寫 React 的地方每次都寫這種 `ReactDOM.render(...);` 的寫法，但會發現不適很方便，JSX是一個解決此問題的方法，JSX 是 javascript 的延伸，可以允許我們用 xml 的語法來建立我們 `ReactDOM.render(...);`的呼叫。
 
 
 
