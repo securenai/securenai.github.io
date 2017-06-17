@@ -18,6 +18,29 @@ React 介紹了另類開發應用程式介面(UI)的方式，它的主要優點�
 ### 宣告式編程(declarative) vs 指令式編程(Imperative)
 React的另一個優點是它屬於`宣告式編程(declarative)`，這個意思是我們寫程式時是在形容或宣告我們要的結果，這個概念是相對於`指令式編程(Imperative)`，指令式是指我們去形容要做哪些事、哪些步驟要完成才可達到目標。舉例來說我們要做出一個下拉選單選了某個 option 後，會在另一個 input 出現，這樣的功能，我們就會寫一行一行的 javascript 像是改變變數的值、呼叫 function...等等步驟來完成上述的功能，這就是指令式編程，而當我們在 HTML 檔要加圖片時，會寫一個 img 標籤，瀏覽器就知道我們要顯示圖檔，我們用 img 標籤告訴 browser 我們要的結果是一個圖片，這就是宣告式編程的概念，而React提供了宣告式編程的方式來建立我們的使用者介面。
 
+簡單的 Hello World 例子
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://fb.me/react-0.13.1.js"></script>  
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+      var HelloMessage = React.createClass({
+        displayName: "HelloMessage",
+        render: function() {
+          return React.createElement("div", null, "Hello World ", null);
+        }
+      }),mountNode=document.getElementById('app');
+    
+    React.render(React.createElement(HelloMessage, null), mountNode);
+  </script>
+</body>
+```
+### JSX
+
 
 
 Since the markdown will output the code block into something like `<pre><code>...</code></pre>`, so I can use pure JavaScript to create the line numbers and inject the HTML code into my `<pre><code>` block.
