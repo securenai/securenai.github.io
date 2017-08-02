@@ -291,6 +291,17 @@ hr {
   margin-top: $base-spacing * 2;
 }
 /**********************************************************/
+ code {
+    background: none;
+    border-radius: 0;
+    border: none;
+    font-family: monospace;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0 5px;
+    background-color: #EDEDB8;
+  }
+
 pre {
   display: block;
   margin-top: 0;
@@ -311,9 +322,6 @@ pre {
     font-size: 14px;
     padding: 0;
     display: block;
-  }
-  .highlighter-rouge{
-     background-color: #EDEDB8;
   }
   .line-number {
     display: block;
