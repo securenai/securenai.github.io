@@ -114,7 +114,8 @@ a {
   .author-name {
     display: inline-block;
     padding: 0 .2em;
-    background: lighten($light-gray-color, 15%)
+    //background: lighten($light-gray-color, 15%)
+    background-color:#F7F7EE;
   }
 
   a {
