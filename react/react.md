@@ -31,4 +31,6 @@ React.js是由Facebook內部所開發的JavaScript函式庫，在Virtual DOM的�
 
 1: Footnote number one yeah baby!
 
-2: [**Facebook open source**](https://facebook.github.io/react/)
+2: [**Facebook open source**](https://facebook.github.io/react/) <--md
+
+3: <a href="https://facebook.github.io/react/" target="_blank">Facebook open source</a> <--html
