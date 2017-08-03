@@ -10,7 +10,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 175px;
+    width: 100px;
 }
 
 div.gallery:hover {
@@ -25,6 +25,7 @@ div.gallery img {
 div.desc {
     padding: 0px;
     text-align: center;
+    font-size:10px;
 }
 
 
