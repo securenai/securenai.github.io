@@ -8,7 +8,7 @@ keywords: 'markdown, typography components, dummy content'
 published: true
 ---
 
-![React](https://github.com/securenai/securenai.github.io/react/react_images/react_intro.png)
+![React](react_images/react_intro.png)
 
 ## REACT 是....
 
