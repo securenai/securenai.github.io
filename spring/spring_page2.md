@@ -1,5 +1,5 @@
 ---
-title: Spring 相關設定
+title: Spring HelloSpring 範例
 description: >-
   Automate your task for sending email notification with PowerShell script and
   Windows SMTP Client.
@@ -32,4 +32,3 @@ Artifact Id : spring
     <version>4.3.9.RELEASE</version>
 </dependency>
 ```
-
