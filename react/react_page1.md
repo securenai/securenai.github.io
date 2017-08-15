@@ -12,9 +12,9 @@ comments: true
 published: true
 ---
 
-<a href="/React/">React</a> >>
-<a href="/React/React_page1/">React 簡介</a> >>
-<a href="/React/React_page2/">JSX</a> >>
+<a href="/react/">React</a> >>
+<a href="/react/React_page1/">React 簡介</a> >>
+<a href="/react/React_page2/">JSX</a> >>
 <div class="divider"></div>
 
 ### React
