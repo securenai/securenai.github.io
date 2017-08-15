@@ -93,5 +93,6 @@ Bean.xml
 ![Spring](spring_images/springconfig03.png)
 
 ### 說明 -- 我剛剛到底寫了什麼??
+首先要說明`HelloSpring.java`，它就是一個很一般的class，
 
 
