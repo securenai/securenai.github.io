@@ -71,3 +71,24 @@ public class Test {
 }
 ```
 ### Bean 設定檔
+最後需要再 src file 的目錄底下建一個 Bean.xml 檔，寫入以下程式 :
+
+Bean.xml
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id = "helloSpring" class = "com.example.spring.HelloSpring">
+      <property name = "message" value = "Hello World!"/>
+   </bean>
+
+</beans>
+```
+完成後可以執行(run) `Test.java`，正確結果應該長這樣 : 
+
+![Spring](spring_images/springconfig03.png)
+
