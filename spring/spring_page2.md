@@ -37,7 +37,7 @@ Artifact Id : spring
 ![Spring](spring_images/springconfig02.png)
 
 ### HelloSpring.java & Test.java
-接下來我們 src file 的 package 底下 com.example.spring create 兩個 class，分別叫做 HelloSpring.java 以及 Test.java，然後分別寫入以下程式 : 
+接下來我們 src file 的 package 底下 `com.example.spring create` 兩個 class，分別叫做 `HelloSpring.java` 以及 `Test.java`，然後分別寫入以下程式 : 
 
 HelloSpring.java
 ```
