@@ -61,8 +61,8 @@ DOM 元素主要由三樣東西組成等
 
 ---
 <div class="pagenation_center">
-  |<a href="react/"> 上一頁</a> |
-  <a href="/react/react_page2"> 下一頁 </a> |
+  |<a class="pagenation_link" href="react/"> 上一頁</a> |
+   <a class="pagenation_link" href="/react/react_page2"> 下一頁 </a> |
 </div>
 
 
