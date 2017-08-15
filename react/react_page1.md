@@ -65,5 +65,4 @@ DOM 元素主要由三樣東西組成等
   <a href="/react/react_page2"> 下一頁 </a> |
 </div>
 
----
 
