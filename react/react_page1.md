@@ -60,6 +60,4 @@ DOM 元素主要由三樣東西組成等
 但JSX的表示我們的程式並不是先天或是理所當然地可以看懂的，必須要有某種懂JSX語法的工具來幫我們翻譯成React.createElement 的呼叫使瀏覽器可以執行它，也就是需要這個工具幫我們把JSX翻譯成Javascript的code，它叫做[Babel](https://babeljs.io/)，
 
 ---
-<div class="pagenation_center">
-  |<a href="/react/"/> 上一頁 |<a href="/react/react_page2"/> 下一頁 |
-</div>
+
