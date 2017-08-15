@@ -92,6 +92,6 @@ Bean.xml
 
 ![Spring](spring_images/springconfig03.png)
 
-### 說明
+### 說明 -- 我剛剛到底寫了什麼??
 
 
