@@ -12,6 +12,12 @@ comments: true
 published: true
 ---
 
+<a href="/React/">React</a> >>
+<a href="/React/React_page1/">React 簡介</a> >>
+<a href="/React/React_page2/">JSX</a> >>
+<div class="divider"></div>
+
+### React
 
 React 介紹了另類開發應用程式介面(UI)的方式，它的主要優點是它是`以元件為基礎(Component-Based)`，當我們撰寫我們前端網頁的畫面時，我們會用使用許多 DOM 元素去組合出我們想要的呈現方式，ex:<div><span><h1>....等。在許多情形下我們會有想要重複利用同樣的一個功能像是想在我們的頁面上多次使用一個 form 表單，以往作法可能會重複貼上一樣的 code 把表單內容再做微調。而React的精神在於它會把這個 form 看成是一個獨立的元件，當我們用 React 做出一個元件，其他地方便可以再次拿這個元件使用。
 
@@ -66,5 +72,3 @@ DOM 元素主要由三樣東西組成等
    <a class="pagenation_link" href="/react/react_page2"> 下一頁 </a> |
   </div>
 </div>
-
-
