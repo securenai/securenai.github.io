@@ -33,4 +33,5 @@ Artifact Id : spring
 </dependency>
 ```
 匯入的 dependency 應該包含以下 highlight 的資源
+
 ![Spring](spring_images/springconfig02.png)
