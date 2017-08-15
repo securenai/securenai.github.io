@@ -20,10 +20,9 @@ Artifact Id : spring
 ![Spring](spring_images/springconfig01.png)
 
 ### 利用 Maven 匯入 Spring Dependencies
-接下來可以利用 Maven 專案的 POM 檔匯入所有 Spring 需要的 jar 檔。目前只是單純的 Java application，這裡
-匯入 spring-context 相關的 dependency 即可。
+接下來可以利用 Maven 專案的 POM 檔匯入所有 Spring 需要的 jar 檔。目前只是單純的 Java application，這裡匯入 spring-context 相關的 dependency 即可。
 
-**<a href="https://mvnrepository.com/artifact/org.springframework/spring-context/4.3.9.RELEASE" target="_blank">Home » org.springframework » spring-context » 4.3.9.RELEASE</a>**
+**<a href="https://mvnrepository.com/artifact/org.springframework/spring-context/4.3.9.RELEASE" target="_blank">spring-context4.3.9.RELEASE</a>**
 
 然後在 Maven 專案的 pom 檔匯入相關資源
 ```
