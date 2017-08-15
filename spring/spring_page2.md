@@ -85,14 +85,14 @@ Bean.xml
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
    <bean id = "helloSpring" class = "com.example.spring.HelloSpring">
-      <property name = "message" value = "Hello World!"/>
+      <property name = "message" value = "Hello Spring!"/>
    </bean>
 
 </beans>
 ```
 完成後可以執行(run) `Test.java`，正確結果應該為以下結果 : 
 ```
-Your Message : Hello World!
+Your Message : Hello Spring!
 ```
 
 ### 說明 -- 我剛剛到底寫了什麼??
