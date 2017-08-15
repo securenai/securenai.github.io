@@ -11,7 +11,7 @@ tags:
 comments: true
 published: true
 ---
-首先 Import 一個 Maven project : [New] -> [Project] -> [Maven Project]
+首先，開啟 Eclpise 然後 Import 一個 Maven project : [New] -> [Project] -> [Maven Project]
 
 Group Id : com.example
 
@@ -32,3 +32,4 @@ Artifact Id : spring
     <version>4.3.9.RELEASE</version>
 </dependency>
 ```
+![Spring](spring_images/springconfig02.png)
