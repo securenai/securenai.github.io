@@ -18,6 +18,6 @@ published: true
 <div class="divider"></div>
 
 ### Spring
-接下來可以利用 Maven 專案的 POM 檔匯入所有 Spring 需要的 jar 檔。目前只是單純的 Java application，這裡匯入 spring-context 相關的 dependency 即可。
+接下來可以利用 Maven 專案的 POM 檔匯入所有 Spring 需要的 jar 檔。目前只是單純的 Java application，這裡匯入 spring-context 相關的 dependency 即可。以下為 Spring 框架大概的架構 : 
 
 ![Spring](spring_images/springoverview01.png)
