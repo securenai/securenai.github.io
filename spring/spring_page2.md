@@ -70,3 +70,4 @@ public class Test {
    }
 }
 ```
+### Bean 設定檔
