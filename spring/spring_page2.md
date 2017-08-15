@@ -35,3 +35,38 @@ Artifact Id : spring
 匯入的 dependency 應該包含以下 highlight 的資源
 
 ![Spring](spring_images/springconfig02.png)
+
+### HelloSpring.java & Test.java
+接下來我們 src file 的 package 底下 com.example.spring create 兩個 class，分別叫做 HelloSpring.java 以及 Test.java，然後分別寫入以下程式 : 
+
+HelloSpring.java
+```
+package com.example.spring;
+
+public class HelloSpring {
+	private String message;
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public void getMessage() {
+		System.out.println("Your Message : " + message);
+	}
+}
+```
+Test.java
+```
+package com.example.spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+   public static void main(String[] args) {
+      ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+      HelloSpring obj = (HelloSpring) context.getBean("helloSpring");
+      obj.getMessage();
+   }
+}
+```
