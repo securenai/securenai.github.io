@@ -18,6 +18,6 @@ published: true
 <div class="divider"></div>
 
 ### Spring
-接下來可以利用 Maven 專案的 POM 檔匯入所有 Spring 需要的 jar 檔。目前只是單純的 Java application，這裡匯入 spring-context 相關的 dependency 即可。以下為 Spring 框架大概的架構 : 
+Spring 框架是一個在 Apache license 底下的開源框架，它提供了廣泛的工具來開發大數的企業需求。至於 Spring 本身的發想跟開發J2EE(Java™ 2 Platform Enterprise Edition)的複雜性有關係，以下為 Spring 框架大概的架構 : 
 
 ![Spring](spring_images/springoverview01.png)
