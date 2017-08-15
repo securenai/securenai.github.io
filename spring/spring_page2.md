@@ -91,7 +91,9 @@ Bean.xml
 </beans>
 ```
 完成後可以執行(run) `Test.java`，正確結果應該為以下結果 : 
- `Your Message : Hello World!`
+```
+Your Message : Hello World!
+```
 
 ### 說明 -- 我剛剛到底寫了什麼??
 首先要說明 `HelloSpring.java`，它就是一個很一般的class，更可以視為一個 POJO (Plain old Java Object)，有 getter 和 setter。
