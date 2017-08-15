@@ -24,3 +24,12 @@ Artifact Id : spring
 
 **<a href="https://mvnrepository.com/artifact/org.springframework/spring-context/4.3.9.RELEASE" target="_blank">Home » org.springframework » spring-context » 4.3.9.RELEASE</a>**
 
+然後在 Maven 專案的 pom 檔匯入相關資源
+```
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>4.3.9.RELEASE</version>
+</dependency>
+```
+
