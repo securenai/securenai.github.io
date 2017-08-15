@@ -93,6 +93,7 @@ Bean.xml
 ![Spring](spring_images/springconfig03.png)
 
 ### 說明 -- 我剛剛到底寫了什麼??
-首先要說明`HelloSpring.java`，它就是一個很一般的class，
+首先要說明 `HelloSpring.java`，它就是一個很一般的class，更可以視為一個 POJO (Plain old Java Object)，有 getter 和 setter。
+再來看 `Test.java`，其中 import 了 `ApplicationContext` 以及 `ClassPathXmlApplicationContext`，此兩個 class 
 
 
