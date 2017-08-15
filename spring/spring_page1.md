@@ -1,5 +1,5 @@
 ---
-title: Spring HelloSpring 範例
+title: Spring 簡介
 description: >-
   Automate your task for sending email notification with PowerShell script and
   Windows SMTP Client.
