@@ -12,6 +12,8 @@ comments: true
 published: true
 ---
 首先 Import 一個 Maven project : [New] -> [Project] -> [Maven Project]
+Group Id : com.example
+Artifact Id : spring
 ![Spring](spring_images/springconfig01.png)
 
 接下來可以利用 Maven 專案的 POM 檔匯入所有 Spring 需要的 jar 檔。目前只是單純的 Java application，這裡
