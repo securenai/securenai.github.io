@@ -71,7 +71,7 @@ public class Test {
 }
 ```
 ### Bean 設定檔
-最後需要再 src file 的目錄底下建一個 Bean.xml 檔，寫入以下程式 :
+最後需要再 src file 的目錄底下建一個 `Bean.xml` 檔，寫入以下程式 :
 
 Bean.xml
 ```
