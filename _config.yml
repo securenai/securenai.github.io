@@ -55,6 +55,8 @@ navbar:
     title: About
   - slug : react
     title: React
+  - slug : spring
+    title: Spring
   - slug : blog
     title: Blog
 
