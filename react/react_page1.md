@@ -13,7 +13,7 @@ published: true
 ---
 
 <a href="/react/">React</a> >>
-<a href="/react/react_page1/"style="color:lightsalmon;background-color:floralwhite;">React 簡介</a> >>
+<a href="/react/react_page1/" style="color:lightsalmon;background-color:floralwhite;">React 簡介</a> >>
 <a href="/react/react_page2/">JSX</a> >>
 <div class="divider"></div>
 
