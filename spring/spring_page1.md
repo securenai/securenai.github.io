@@ -13,7 +13,7 @@ published: true
 ---
 
 <a href="/spring/">Spring</a> >>
-<a href="/spring/spring_page1/" style="color:lightsalmon;background-color:floralwhite;">Spring 簡介</a> >>
+<a href="/spring/spring_page1/" style="color:palevioletred;background-color:papayawhip;">Spring 簡介</a> >>
 <a href="/spring/spring_page2/">Spring HelloSpring 範例</a> >>
 <div class="divider"></div>
 ### Spring
