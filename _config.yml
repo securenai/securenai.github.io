@@ -57,6 +57,8 @@ navbar:
     title: React
   - slug : spring
     title: Spring
+  - slug : python
+    title: Python
   - slug : blog
     title: Blog
 
