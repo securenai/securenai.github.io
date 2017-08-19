@@ -10,5 +10,5 @@ keywords: "dummy content"
 
 步驟 : [new] --> [other]--> [Maven] --> [Maven Project]
 
-![ws1.png]({{site.baseurl}}/_posts/ws1.png)
+![ws1.png]({{site.baseurl}}/assets/images/post_images/ws1.png)
 
