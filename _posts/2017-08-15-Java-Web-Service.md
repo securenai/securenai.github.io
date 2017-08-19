@@ -19,6 +19,6 @@ archetype 請選擇 maven-archetype-webapp :
 
 group id : com.securenai.example [我的例子，您可以自訂]
 
-arttifact id : hellows [我的例子，您可以自訂]
+artifact id : hellows [我的例子，您可以自訂]
 
 
