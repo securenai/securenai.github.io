@@ -22,7 +22,8 @@ group id : com.securenai.sample [我的例子，您可以自訂]
 artifact id : hellows [我的例子，您可以自訂]
 
 建好之後，如果進到 pom.xml 應該會看到這樣 : 
-、、、
+
+```
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -44,4 +45,4 @@ artifact id : hellows [我的例子，您可以自訂]
     <finalName>hellows</finalName>
   </build>
 </project>
-、、、
+```
