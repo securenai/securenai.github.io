@@ -46,3 +46,6 @@ artifact id : hellows [我的例子，您可以自訂]
   </build>
 </project>
 ```
+我們開 pom.xml 原因是要準備匯入 webservice 的相關資源工具讓我們直接使用，這樣我們可以專心處理跟業務邏輯有關的程式而不要太去鑽研在 webservice 的底層運作。
+
+
