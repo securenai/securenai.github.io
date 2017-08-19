@@ -48,4 +48,41 @@ artifact id : hellows [我的例子，您可以自訂]
 ```
 我們開 pom.xml 原因是要準備匯入 webservice 的相關資源工具讓我們直接使用，這樣我們可以專心處理跟業務邏輯有關的程式而不要太去鑽研在 webservice 的底層運作。
 
+# Maven Dependencies
+
+最後的 Pom.xml 的 dependencies 應要包含以下 :
+```
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+        
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+        
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>3.2.0.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>3.2.0.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.2.0.RELEASE</version>
+		</dependency>
+	</dependencies>
+```
+
 
