@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Java Web Service"
+title: Java Web Service
 comments: true
-description: "Java Web Service"
-keywords: "dummy content"
+description: Java Web Service
+keywords: dummy content
+published: true
 ---
 
 開啟 eclipse 建立一個 Maven 專案:
@@ -12,3 +13,6 @@ keywords: "dummy content"
 
 ![ws1.png](/assets/images/post_images/ws1.png)
 
+archetype 請選擇 maven-archetype-webapp : 
+
+![ws2.png](/assets/images/post_images/ws2.png)
