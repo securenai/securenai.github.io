@@ -11,7 +11,7 @@ published: true
 
 步驟 : [new] --> [other]--> [Maven] --> [Maven Project]
 
-![ws1.png](/assets/images/post_images/ws1.png)
+<!--![ws1.png](/assets/images/post_images/ws1.png)-->
 
 archetype 請選擇 maven-archetype-webapp : 
 
