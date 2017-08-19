@@ -17,7 +17,7 @@ archetype 請選擇 maven-archetype-webapp :
 
 ![ws2.png](/assets/images/post_images/ws2.png)
 
-group id : com.securenai.example [我的例子，您可以自訂]
+group id : com.securenai.sample [我的例子，您可以自訂]
 
 artifact id : hellows [我的例子，您可以自訂]
 
