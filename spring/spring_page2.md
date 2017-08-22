@@ -41,6 +41,10 @@ Artifact Id : spring
 
 ![Spring](spring_images/springconfig02.png)
 
+如果與 Spring 框架的 module 來說，目前只用到了 core container，但此核心容器同時也是 Spring 最核心最重要的一塊。
+
+![Spring](spring_images/springcore.png)
+
 ### HelloSpring.java & Test.java
 接下來我們 src file 的 package 底下 `com.example.spring create` 兩個 class，分別叫做 `HelloSpring.java` 以及 `Test.java`，然後分別寫入以下程式 : 
 
