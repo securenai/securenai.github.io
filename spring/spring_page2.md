@@ -108,4 +108,8 @@ Your Message : Hello Spring!
 首先要說明 `HelloSpring.java`，它就是一個很一般的class，更可以視為一個 POJO (Plain old Java Object)，有 getter 和 setter。
 再來看 `Test.java`，其中 import 了 **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html" target="_blank">ApplicationContext</a>** 以及 **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**。
 
-ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架的
+ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory介面的子介面，而它本身的介面實作了三個提供設定管道的類別，分別為
+
+1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**
+2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/FileSystemXmlApplicationContext.html" target="_blank">FileSystemXmlApplicationContext</a>**
+3. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/context/support/XmlWebApplicationContext.html" target="_blank">XmlWebApplicationContext</a>**
