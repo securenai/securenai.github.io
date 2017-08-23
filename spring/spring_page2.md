@@ -130,3 +130,21 @@ ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 HelloSpring obj = (HelloSpring) context.getBean("helloSpring");
 ```
 的方法注入給 HelloSpring 的物件 obj。所以當你用 obj 去 getMessage 時，會讀出在 Beans.xml 給予的屬性值。
+
+可以試如何用另外兩種 Class 來跑這個範例，如果是用 FileSystemXmlApplicationContext，那 Test.java 可以這樣寫 : 
+
+Test.java
+```
+package com.example.spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Test {
+	public static void main(String[] args) {
+	 ApplicationContext context = new FileSystemXmlApplicationContext("C:/Users/user/workspace/spring/src/main/java/Beans.xml");
+	 HelloSpring obj = (HelloSpring) context.getBean("helloSpring");
+	 obj.getMessage();
+	}
+}
+```
