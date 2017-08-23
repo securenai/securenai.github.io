@@ -20,7 +20,8 @@ React.js是由Facebook內部所開發的JavaScript函式庫，在Virtual DOM的�
 
 1. [**Spring 簡介**](/spring/spring_page1)
 2. [**Spring HelloSpring 範例**](/spring/spring_page2)
-3. [**Spring xxx 範例**](/spring/spring_page3)
+3. [**Spring Bean](/spring/spring_page4)
+4. [**Spring xxx 範例**](/spring/spring_page5)
 
 * Unordered list can use asterisks
 - Or minuses
