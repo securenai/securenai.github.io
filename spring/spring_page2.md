@@ -148,3 +148,4 @@ public class Test {
 	}
 }
 ```
+從 Class 名稱看，不難看出原先的 Class 是透過 Classpath 去找 Bean.xml，而 後者是透過檔案來尋找 Bean.xml
