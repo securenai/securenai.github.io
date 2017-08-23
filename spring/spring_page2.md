@@ -156,18 +156,20 @@ Test.java
 ```
 package com.example.spring;
 
+import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory; 
 import org.springframework.core.io.ClassPathResource;  
 
 @SuppressWarnings("deprecation")
 public class Test {
 	public static void main(String[] args) {
-     XmlBeanFactory factory = new XmlBeanFactory (new ClassPathResource("Beans.xml")); 
+     BeanFactory factory = new XmlBeanFactory (new ClassPathResource("Beans.xml")); 
 	 HelloSpring obj = (HelloSpring) factory.getBean("helloSpring");
 	 obj.getMessage();
 	}
 }
 ```
+值得一提的是，XmlBeanFactory 在後來的版本已經列為 deprecated，因此使用 ApplicationContext 會比較適合。
 
 ### 總結
 
