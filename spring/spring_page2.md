@@ -152,4 +152,4 @@ public class Test {
 
 ### 總結
 
-此範例即透過 Spring container(不論是 ApplicationContext 或 BeanFactory)所提供的機制，來處理我們的 bean 物件，他幫我們 Mapping 好這些 bean 讓我們可以使用。
+此範例即透過 Spring container(不論是 ApplicationContext 或 BeanFactory)所提供的機制，來處理我們的 bean 物件，他幫我們管理並建立好這些 bean 讓我們可以使用。
