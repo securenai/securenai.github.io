@@ -23,7 +23,7 @@ Spring Bean 是物件，這些 Bean 是整個 Spring 應用程式的骨幹，而
 ### 定義 Bean 的屬性
 
 | 屬性                   | 說明                                           |
-| -----------------------|:---------------------------------------------:|
+| -----------------------|-----------------------------------------------|
 | class                  | This attribute is mandatory and specifies the |
 | name                   | org.springframework.context.ApplicationContext|
 |lazy-initialization mode|
