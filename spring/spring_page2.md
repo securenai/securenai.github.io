@@ -110,10 +110,10 @@ Your Message : Hello Spring!
 
 ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory 介面的子介面，ApplicationContext 和 BeanFactory 都是 Spring container 的一種，基本上 ApplicationContext 以繼承了 BeanFactory 既有的功能
 
-| Containers         | Interface                                     | type      |
-| ------------------ |:---------------------------------------------:|:---------:|
-| BeanFactory        | org.springframework.beans.factory.BeanFactory | Interface |
-| ApplicationContext | org.springframework.context.ApplicationContext| Interface |
+| Containers         | Interface                                     |
+| ------------------ |:---------------------------------------------:|
+| BeanFactory        | org.springframework.beans.factory.BeanFactory |
+| ApplicationContext | org.springframework.context.ApplicationContext|
 
 而它本身的介面實作了三個提供設定管道的類別，分別為
 
