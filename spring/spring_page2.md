@@ -149,3 +149,7 @@ public class Test {
 }
 ```
 從 Class 名稱看，不難看出原先的 Class 是透過 Classpath 去找 Bean.xml，而 後者是透過檔案來尋找 Bean.xml
+
+### 總結
+
+此範例即透過 Spring container(ApplicationContext)所提供的機制，來處理我們的 bean 物件，他幫我們 Mapping 好這些 bean 讓我們可以使用。
