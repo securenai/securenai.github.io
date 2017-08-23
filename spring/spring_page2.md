@@ -115,8 +115,18 @@ ApplicationContext(**<a href="https://spring.io/understanding/application-contex
 | BeanFactory        | org.springframework.beans.factory.BeanFactory |
 | ApplicationContext | org.springframework.context.ApplicationContext|
 
-而它本身的介面實作了三個提供設定管道的類別，分別為
+而 ApplicationContext 它本身的介面實作了三個提供設定管道的類別，分別為
 
 1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**
 2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/FileSystemXmlApplicationContext.html" target="_blank">FileSystemXmlApplicationContext</a>**
 3. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/context/support/XmlWebApplicationContext.html" target="_blank">XmlWebApplicationContext</a>**
+
+此範例使用了 ClassPathXmlApplicationContext 來透過 Spring 幫你找出你定義好的 Bean.xml，
+```
+ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+```
+此設定檔會去對應到你的 HelloSpring 物件，給予 HelloSpring 物件裡的 message 屬性定義了一個值叫做 "Hello Spring!"，然後透過 
+```
+HelloSpring obj = (HelloSpring) context.getBean("helloSpring");
+```
+的方法注入給 HelloSpring 的物件 obj。所以當你用 obj 去 getMessage 時，會讀出在 Beans.xml 給予的屬性值。
