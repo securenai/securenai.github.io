@@ -150,7 +150,7 @@ public class Test {
 ```
 從 Class 名稱看，不難看出原先的 Class 是透過 Classpath 去找 Bean.xml，而 後者是透過檔案來尋找 Bean.xml
 
-也可以試如何用另 BeanFactory 來跑這個範例， Test.java 可以這樣寫 :
+也可以試如何用 BeanFactory 來跑這個範例， Test.java 可以這樣寫 :
 
 Test.java
 ```
@@ -173,4 +173,4 @@ public class Test {
 
 ### 總結
 
-此範例即透過 Spring container(不論是 ApplicationContext 或 BeanFactory)所提供的機制，來處理我們的 bean 物件，他幫我們管理並建立好這些 bean 讓我們可以使用。
+此範例即透過 Spring container(不論是 ApplicationContext 或 BeanFactory)來讀我們提供給它的資料(Bean.xml)來處理(建立初始化)我們的 bean 物件，他幫我們管理並建立好這些 bean 讓我們可以使用。
