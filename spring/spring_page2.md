@@ -17,7 +17,9 @@ published: true
 <a href="/spring/spring_page2/" style="color:palevioletred;background-color:papayawhip;">Spring Container</a> >> <a href="/spring/spring_page3/">Spring Beans</a> >>
 <div class="divider"></div>
 ### 何謂 Spring Container?
+Spring Container 是整個 Spring framework 的核心，該 Container 負責管理、建立、並 mapping container 裡的物件，透過 Dependency injection 來管理這些物件並拿來應用，同時 Container 也需要讀取相關設定(不論是透過 XML 或是 Java code 或是 anotation)，告訴 container 要建立和初始化那些物件。
 
+![Spring](spring_images/springcontainer.png)
 
 ### 範例
 首先，開啟 Eclpise 然後 Import 一個 Maven project : [New] -> [Project] -> [Maven Project]
