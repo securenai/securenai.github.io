@@ -22,7 +22,23 @@ Spring Bean 是物件，這些 Bean 是整個 Spring 應用程式的骨幹，而
 
 ### 定義 Bean 的屬性
 
-在上一個範例中，我們有在 Bean.xml 裡定義了 Bean 的屬性，例如 : 
+在上一個範例中，我們有在 Bean.xml 裡定義了 Bean 的屬性 :
+
+Bean.xml
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id = "helloSpring" class = "com.example.spring.HelloSpring">
+      <property name = "message" value = "Hello Spring!"/>
+   </bean>
+
+</beans>
+```
 
 `id = "helloSpring"` : 此 id 可以自己定義，不過在使用 `context.getBean` 時需要用到這個 id 來認 Bean.xml 所對應的 Bean 設定
 
