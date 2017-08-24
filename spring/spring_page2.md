@@ -17,7 +17,7 @@ published: true
 <a href="/spring/spring_page2/" style="color:palevioletred;background-color:papayawhip;">Spring Container</a> >> <a href="/spring/spring_page3/">Spring Beans</a> >>
 <div class="divider"></div>
 ### 何謂 Spring Container?
-Spring Container 是整個 Spring framework 的核心，該 Container 負責管理、建立、並 mapping container 裡的物件，透過 Dependency injection 來管理這些物件並拿來應用，同時 Container 也需要讀取相關設定(不論是透過 XML 或是 Java code 或是 anotation)，告訴 container 要建立和初始化那些物件。
+Spring Container 是整個 Spring framework 的核心，該 Container 負責管理、建立、並 mapping container 裡的物件，透過 Dependency injection 來管理這些物件並拿來應用，同時 Container 也需要讀取相關設定(不論是透過 XML 或是 Java code 或是 annotation)，告訴 container 要建立和初始化那些物件。
 
 ![Spring](spring_images/springcontainer.png)
 
@@ -32,9 +32,12 @@ Spring 有兩種 Container 分別為 :
 
 ### BeanFactory
 
+BeanFactory 為最基礎的 Container, 提供最基本的 Dependency Injection 支援，其中 XmlBeanFactory 是它的實作，可以用來實作 **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/core/io/FileSystemResource.html" target="_blank">FileSystemResource</a>** 及 **<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/io/ClassPathResource.html" target="_blank">ClassPathResource</a>** 來讀取 Spring 設定的 metadata。
+
 ### ApplicationContext
 
-ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory 介面的子介面，ApplicationContext 和 BeanFactory 都是 Spring container 的一種，基本上 ApplicationContext 以繼承了 BeanFactory 既有的功能
+
+ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory 介面的子介面，ApplicationContext 和 BeanFactory 都是 Spring container 的一種，基本上 ApplicationContext 已繼承了 BeanFactory 既有的功能
 
 而 ApplicationContext 它本身的介面實作了三個提供設定管道的類別，分別為
 
