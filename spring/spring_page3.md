@@ -48,6 +48,14 @@ Bean.xml
 
 | 屬性                   | 說明                                           |
 | -----------------------|:----------------------------------------------|
-| class                  | This attribute is mandatory and specifies the |
-| name                   | org.springframework.context.ApplicationContext|
+| class                  |強制性的要求指定要以哪個類別建立 Bean             |
+| name                   |                                               |
 |lazy-initialization mode|
+
+### Bean 設定的種類
+
+Bean 設定的種類主要分為三大種類 : 
+
+1. 以 XML 為 Base 的設定檔
+2. 以 Annotation 為 Base 的設定檔
+3. 以 Java 為 Base 的設定檔
