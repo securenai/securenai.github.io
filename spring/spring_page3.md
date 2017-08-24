@@ -24,11 +24,11 @@ Spring Bean 是物件，這些 Bean 是整個 Spring 應用程式的骨幹，而
 
 在上一個範例中，我們有在 Bean.xml 裡定義了 Bean 的屬性，例如 : 
 
-id = "helloSpring" : 此 id 可以自己定義，不過在使用 `context.getBean` 時需要用到這個 id 來認 Bean.xml 所對應的 Bean 設定
+`id = "helloSpring"` : 此 id 可以自己定義，不過在使用 `context.getBean` 時需要用到這個 id 來認 Bean.xml 所對應的 Bean 設定
 
-class = "com.example.spring.HelloSpring" : 此 class 是用來 Mapping 到我們所定義的 POJO Class，需要連 package name 也標示出來。
+`class = "com.example.spring.HelloSpring"` : 此 class 是用來 Mapping 到我們所定義的 POJO Class，需要連 package name 也標示出來。
 
-property name = "message" value = "Hello Spring!"
+`property name = "message" value = "Hello Spring!"` : 
 
 | 屬性                   | 說明                                           |
 | -----------------------|:----------------------------------------------|
