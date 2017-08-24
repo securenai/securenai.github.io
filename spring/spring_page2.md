@@ -22,8 +22,21 @@ Spring Container 是整個 Spring framework 的核心，該 Container 負責管�
 ![Spring](spring_images/springcontainer.png)
 
 Spring 有兩種 Container 分別為 : 
-1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/beans/factory/BeanFactory.html" target="_blank">BeanFactory</a>**
-2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html" target="_blank">ApplicationContext</a>**
+| Containers         | Interface                                     |
+| ------------------ |:---------------------------------------------:|
+| **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/beans/factory/BeanFactory.html" target="_blank">BeanFactory</a>**        | org.springframework.beans.factory.BeanFactory |
+| **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html" target="_blank">ApplicationContext</a>** | org.springframework.context.ApplicationContext|
+### BeanFactory
+
+### ApplicationContext
+
+ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory 介面的子介面，ApplicationContext 和 BeanFactory 都是 Spring container 的一種，基本上 ApplicationContext 以繼承了 BeanFactory 既有的功能
+
+而 ApplicationContext 它本身的介面實作了三個提供設定管道的類別，分別為
+
+1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**
+2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/FileSystemXmlApplicationContext.html" target="_blank">FileSystemXmlApplicationContext</a>**
+3. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/context/support/XmlWebApplicationContext.html" target="_blank">XmlWebApplicationContext</a>**
 
 ### 範例
 首先，開啟 Eclpise 然後 Import 一個 Maven project : [New] -> [Project] -> [Maven Project]
@@ -117,19 +130,6 @@ Your Message : Hello Spring!
 ### 說明 -- 我剛剛到底寫了什麼??
 首先要說明 `HelloSpring.java`，它就是一個很一般的class，更可以視為一個 POJO (Plain old Java Object)，有 getter 和 setter。
 再來看 `Test.java`，其中 import 了 **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html" target="_blank">ApplicationContext</a>** 以及 **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**。
-
-ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory 介面的子介面，ApplicationContext 和 BeanFactory 都是 Spring container 的一種，基本上 ApplicationContext 以繼承了 BeanFactory 既有的功能
-
-| Containers         | Interface                                     |
-| ------------------ |:---------------------------------------------:|
-| BeanFactory        | org.springframework.beans.factory.BeanFactory |
-| ApplicationContext | org.springframework.context.ApplicationContext|
-
-而 ApplicationContext 它本身的介面實作了三個提供設定管道的類別，分別為
-
-1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**
-2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/FileSystemXmlApplicationContext.html" target="_blank">FileSystemXmlApplicationContext</a>**
-3. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/context/support/XmlWebApplicationContext.html" target="_blank">XmlWebApplicationContext</a>**
 
 此範例使用了 ClassPathXmlApplicationContext 來透過 Spring 幫你找出你定義好的 Bean.xml，
 ```
