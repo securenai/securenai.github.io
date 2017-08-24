@@ -21,6 +21,10 @@ Spring Container 是整個 Spring framework 的核心，該 Container 負責管�
 
 ![Spring](spring_images/springcontainer.png)
 
+Spring 有兩種 Container 分別為 : 
+1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/beans/factory/BeanFactory.html" target="_blank">BeanFactory</a>**
+2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html" target="_blank">ApplicationContext</a>**
+
 ### 範例
 首先，開啟 Eclpise 然後 Import 一個 Maven project : [New] -> [Project] -> [Maven Project]
 
