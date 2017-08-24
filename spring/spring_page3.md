@@ -13,7 +13,7 @@ published: true
 ---
 <a href="/spring/">Spring</a> >>
 <a href="/spring/spring_page1/">Spring 簡介</a> >>
-<a href="/spring/spring_page2/">Spring Container</a> >> <a href="/spring/spring_page3/" style="color:palevioletred;background-color:papayawhip;">Spring Beans</a> >> <a href="/spring/spring_page4/" style="color:palevioletred;background-color:papayawhip;">Dependency Injection</a>
+<a href="/spring/spring_page2/">Spring Container</a> >> <a href="/spring/spring_page3/" style="color:palevioletred;background-color:papayawhip;">Spring Beans</a> >> <a href="/spring/spring_page4/">Dependency Injection</a>
 <div class="divider"></div>
 
 ### 何謂 Spring Bean?
