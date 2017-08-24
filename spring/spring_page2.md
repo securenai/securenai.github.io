@@ -36,10 +36,9 @@ BeanFactory 為最基礎的 Container, 提供最基本的 Dependency Injection �
 
 ### ApplicationContext
 
-
 ApplicationContext(**<a href="https://spring.io/understanding/application-context" target="_blank">請看這</a>**) 是整個 Spring 框架提供應用程式所需的相關設定資料的核心介面，看 API 文件時會發現它其實是 BeanFactory 介面的子介面，ApplicationContext 和 BeanFactory 都是 Spring container 的一種，基本上 ApplicationContext 已繼承了 BeanFactory 既有的功能
 
-而 ApplicationContext 它本身的介面實作了三個提供設定管道的類別，分別為
+而 ApplicationContext 它本身的介面實作了三個提供給 Spring container 讀取設定資料的類別，分別為
 
 1. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/ClassPathXmlApplicationContext.html" target="_blank">ClassPathXmlApplicationContext</a>**
 2. **<a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/support/FileSystemXmlApplicationContext.html" target="_blank">FileSystemXmlApplicationContext</a>**
