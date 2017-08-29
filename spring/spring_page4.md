@@ -18,7 +18,7 @@ published: true
 
 ### 何謂 Dependency Injection?
 
-Dependency Injection (DI)(**<a href="https://stackoverflow.com/questions/130794/what-is-dependency-injection?noredirect=1&lq=1" target="_blank">資料參考</a>**) 是一種設計模式，這種設計模式的理念在於希望將程式裡皮此之間的關係或依賴性降到最低(低耦合性)。
+Dependency Injection (DI)(**<a href="https://stackoverflow.com/questions/130794/what-is-dependency-injection?noredirect=1&lq=1" target="_blank">資料參考</a>**) 是一種設計模式(design pattern)，這種設計模式的理念在於希望將程式裡皮此之間的關係或依賴性降到最低(loose-coupling 低耦合性)。
 
 ```
 class Animal{
