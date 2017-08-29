@@ -31,5 +31,5 @@ Spring Dependency Injection 主要以下兩種 :
 
 | 注入種類                                 | 敘述                                          |
 | ----------------------------------------|:----------------------------------------------|
-| 1 Constructor-based dependency injection| Constructor-based dependency injection        |
-| 2 Setter-based dependency injection     | Setter-based dependency injection             |
+| Constructor-based dependency injection  | Constructor-based dependency injection        |
+| Setter-based dependency injection       | Setter-based dependency injection             |
