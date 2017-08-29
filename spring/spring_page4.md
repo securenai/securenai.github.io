@@ -30,6 +30,6 @@ Dependency Injection 可翻譯成"依賴注入"，從字面上去解釋，就是
 Spring Dependency Injection 主要以下兩種 : 
 
 |   | 注入種類 & 敘述                                |
-| - |:---------------------------------------------:|
+| - |:----------------------------------------------|
 | 1 | Constructor-based dependency injection        |
 | 2 | Setter-based dependency injection             |
