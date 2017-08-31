@@ -56,6 +56,10 @@ Artifact Id : springDI
 
 ![SPRING](spring_images/spring_DI_config01.png)
 
+接下來，請在 `src/main/java` 底下建立一個 `com.example` 的 package 以及一個 `Beans.xml` 的設定檔，然後在 `com.example` 底下建立三個類別 : `TextEditor.java`、 ` SpellChecker.java`、 `MainApp.java` 。建好的目錄結構應該長這樣 : 
+
+![SPRING](spring_images/spring_DI_config02.png)
+
 
  
 ### Setter-based dependency injection
