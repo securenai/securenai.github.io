@@ -132,6 +132,16 @@ Beans.xml :
 </beans>
 ```
 
+輸出 : 
+```
+Inside SpellChecker constructor.
+Inside TextEditor constructor.
+Inside checkSpelling.
+```
+
+### Constructor-based 程式說明 : 
+
+我們所定義的 `TextEditor.java` 以及 `SpellChecker.java` 都是很一般的 POJO，而且這兩個 Class 分別都有一個建構子，就這麼單純。然後來看 `Beans.xml` 設定檔，我們要 Spring Container 幫我們準備好 `TextEditor.java `以及 `SpellChecker.java` 的物件，就得要在設定檔裡定義這兩個 Class 的 Bean definition，line 9~11 是 `TextEditor.java` 的 Bean 定義，給予 `id` 叫做 `textEditor`，`class` 必須指定 POJO 的所在，Caontainer 才找得到，而 `constructor-arg ref` 就是告訴 Container 說，這個 Spring Bean 有定義建構子，請根據 ``
 
  
 ### Setter-based dependency injection
