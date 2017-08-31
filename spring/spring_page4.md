@@ -66,15 +66,15 @@ TextEditor.java :
 package com.example;
 
 public class TextEditor {
-	   private SpellChecker spellChecker;
+	private SpellChecker spellChecker;
 
-	   public TextEditor(SpellChecker spellChecker) {
-	      System.out.println("Inside TextEditor constructor." );
-	      this.spellChecker = spellChecker;
-	   }
-	   public void spellCheck() {
-	      spellChecker.checkSpelling();
-	   }
+	public TextEditor(SpellChecker spellChecker) {
+      System.out.println("Inside TextEditor constructor." );
+      this.spellChecker = spellChecker;
+	}
+	public void spellCheck() {
+      spellChecker.checkSpelling();
+      }
 	}
 ```
 
@@ -84,12 +84,12 @@ SpellChecker.java :
 package com.example;
 
 public class SpellChecker {
-	   public SpellChecker(){
-	      System.out.println("Inside SpellChecker constructor." );
-	   }
-	   public void checkSpelling() {
-	      System.out.println("Inside checkSpelling." );
-	   }
+	public SpellChecker(){
+		System.out.println("Inside SpellChecker constructor." );
+	}
+	public void checkSpelling() {
+		System.out.println("Inside checkSpelling." );
+		}
 	}
 ```
 
