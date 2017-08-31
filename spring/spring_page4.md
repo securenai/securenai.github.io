@@ -39,6 +39,8 @@ Spring Dependency Injection 主要以下兩種 :
 ### Constructor-based Dependency Injection
 簡單來說 Constructor-based 的 DI 技巧為: 將所需要的元件在類別初始化的時候會 pass 進來
 
+接著試著用實際範例來體驗建構子-based的依賴注入，範例直接參考自(**<a href="https://www.tutorialspoint.com/spring/constructor_based_dependency_injection.htm" target="_blank">tutorialspoint</a>**)
+
 範例 : 先開一個 Maven 專案，在 Pom 檔匯入 Spring-Context 的 Dependency : 
 ```
 <dependency>
@@ -47,8 +49,13 @@ Spring Dependency Injection 主要以下兩種 :
     <version>4.3.4.RELEASE</version>
 </dependency>
 ```
+Group Id : com.example
+Artifact Id : springDI
+
 目錄結構 : 
 
 ![SPRING](spring_images/spring_DI_config01.png)
+
+
  
 ### Setter-based dependency injection
