@@ -19,11 +19,11 @@ Spring MVC 的核心觀念之一就是 Dispatcher Servlet，簡單來說 Spring 
 ![Spring](spring_images/springmvcprocessflow.png)
 
 ### 範例
-先前建議 eclipse 可以下載一個 Spring 的 Plugin 叫作 Spring Tools
+先前建議在您的 eclipse 環境可以下載一個 Spring 的 Plugin 叫作 Spring Tools
 
 ![Spring](spring_images/eclipsemarketspringtools.png)
 
-現在建立一個最基本的 Spring MVC Web 專案，在 Eclipse 新增一個 Dynamic Web Project，建立好的專案下有一個目錄叫作 WebContent，裡面有 WEB-INF 的目錄，在 WEB-INF 之下可以需要新增一個 .xml 檔，名字取為 `web.xml` (名稱必須為 web.xml)
+然後建立一個最基本的 Spring MVC Web 專案，在 Eclipse 新增一個 Dynamic Web Project，建立好的專案下有一個目錄叫作 WebContent，裡面有 WEB-INF 的目錄，在 WEB-INF 之下可以需要新增一個 .xml 檔，名字取為 `web.xml` (名稱必須為 web.xml)
 
 步驟 : 1> [NEW] -->
 
