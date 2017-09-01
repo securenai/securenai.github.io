@@ -42,4 +42,13 @@ published: true
 
 ### web.xml
 
+web.xml 是....
+
+設定 :
+在 package explorer `web.xml` 點右鍵，[new] -> 選[other] -> 然後在精靈 wizard 輸入 servlet，然後在 create servlet 的視窗裡勾選 Use existing Servlet Class or Jsp -> 選擇 Dispatcher Servlet。 
+
+![Spring](spring_images/springmvcexample2.png)
+
+說明 :
+
 
