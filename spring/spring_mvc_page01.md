@@ -80,3 +80,8 @@ web.xml 是....
 ### dispatcherServlet-servlet.xml
 
 在 spring-context DispatcherServlet初始化之下，spring framework 就會嘗試去從 WebContent/WEB-INF 的目錄下去找一個叫作`[servlet-name]-servlet.xml` 的設定檔去載入 application context。我們這裡可以命名叫作 `dispatcherServlet-servlet.xml`，但重點是 `[servlet-name]-servlet.xml` 當中的 `[servlet-name]` 名稱必須跟 `web.xml` 的 `servlet-name` 一樣，否則會 mapping 不到。
+
+加入方式 : 
+
+![Spring](spring_images/springmvcexample3.png)
+
