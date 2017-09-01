@@ -12,6 +12,12 @@ comments: true
 published: true
 ---
 
+### Dispatcher Servlet
+
+Spring MVC 的核心觀念之一就是 Dispatcher Servlet，簡單來說 Spring MVC Framework 的設計圍繞者這個 Dispatcher Servlet，它的功用在於在最前線將所有的 request 分派到正確的 handler，分派的機制由我們去設定，由 Dispatcher Servlet 去執行，它就是一個在最前線的 Controller，單獨的接收 Http 請求，分派到 application 的其他 controller 或是 handler。
+
+![Spring](spring_images/springmvcprocessflow.png)
+
 ### 範例
 現在建立一個最基本的 Spring MVC Web 專案，在 Eclipse 新增一個 Dynamic Web Project，建立好的專案下有一個目錄叫作 WebContent，裡面有 WEB-INF 的目錄，在 WEB-INF 之下可以需要新增一個 .xml 檔，名字取為 `web.xml` (名稱必須為 web.xml)
 
@@ -65,8 +71,3 @@ web.xml 是....
 ```
 
 說明 : 要說明為什麼要新增這一段就要說明 <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/DispatcherServlet.html" target="_blank">`Dispatcher Servlet`</a>
-
-### Dispatcher Servlet
-
-
-A central dispatcher for HTTP request handlers/controllers, e.g. for web UI controllers or HTTP-based remote service exporters. Dispatches to registered handlers for processing a web request, providing convenient mapping and exception handling facilities.
