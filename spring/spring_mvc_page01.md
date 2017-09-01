@@ -49,6 +49,24 @@ web.xml 是....
 
 ![Spring](spring_images/springmvcexample2.png)
 
-說明 :
+當新增成功後，`web.xml` 應該會多這段 code
+
+```
+  <servlet>
+    <description></description>
+    <display-name>DispatcherServlet</display-name>
+    <servlet-name>DispatcherServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DispatcherServlet</servlet-name>
+    <url-pattern>/DispatcherServlet</url-pattern>
+  </servlet-mapping>
+```
+
+說明 : 要說明為什麼要新增這一段就要說明 <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/DispatcherServlet.html" target="_blank">`Dispatcher Servlet`</a>
+
+### Dispatcher Servlet
 
 
+A central dispatcher for HTTP request handlers/controllers, e.g. for web UI controllers or HTTP-based remote service exporters. Dispatches to registered handlers for processing a web request, providing convenient mapping and exception handling facilities.
