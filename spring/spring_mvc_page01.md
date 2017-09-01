@@ -14,7 +14,7 @@ published: true
 
 ### Dispatcher Servlet
 
-Spring MVC 的核心觀念之一就是 Dispatcher Servlet，簡單來說 Spring MVC Framework 的設計圍繞者這個 Dispatcher Servlet，它的功用在於在最前線將所有的 request 分派到正確的 handler，分派的機制由我們去設定，由 Dispatcher Servlet 去執行，它就是一個在最前線的 Controller，單獨的接收 Http 請求，分派到 application 的其他 controller 或是 handler。
+Spring MVC 的核心觀念之一就是 Dispatcher Servlet，簡單來說 Spring MVC Framework 的設計圍繞者這個 Dispatcher Servlet，它的功用在於在最前線將所有的 http request 分派到正確的 handler，分派的機制由我們去設定，由 Dispatcher Servlet 去執行，它就是一個在最前線的 Controller，單獨的接收 Http 請求，分派到 application 的其他 controller 或是 handler。
 
 ![Spring](spring_images/springmvcprocessflow.png)
 
@@ -49,6 +49,7 @@ Spring MVC 的核心觀念之一就是 Dispatcher Servlet，簡單來說 Spring 
 ### web.xml
 
 web.xml 是....
+此 web.xml 檔會佈署在應用程式 WebContent/WEB-INF 的目錄下。
 
 設定 :
 在 package explorer `web.xml` 點右鍵，[new] -> 選[other] -> 然後在精靈 wizard 輸入 servlet，然後在 create servlet 的視窗裡勾選 Use existing Servlet Class or Jsp -> 選擇 Dispatcher Servlet。 
@@ -71,3 +72,7 @@ web.xml 是....
 ```
 
 說明 : 要說明為什麼要新增這一段就要說明 <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/DispatcherServlet.html" target="_blank">`Dispatcher Servlet`</a>
+
+### dispatcherServlet-servlet.xml
+
+在 spring-context DispatcherServlet初始化之下，spring framework 就會嘗試去從 WebContent/WEB-INF 的目錄下去找一個叫作`[servlet-name]-servlet.xml` 的設定檔去載入 application context。我們這裡可以命名叫作 `dispatcherServlet-servlet.xml`，但重點是 `[servlet-name]-servlet.xml` 當中的 `[servlet-name]` 名稱必須跟 `web.xml` 的 `servlet-name` 一樣，否則會 mapping 不到。
