@@ -60,18 +60,18 @@ web.xml 是....
 
 ![Spring](spring_images/springmvcexample2.png)
 
-當新增成功後，`web.xml` 應該會多這段 code
+當新增成功後，`web.xml` 應該會多一段<servlet> 和 <servlet-mapping>，可以改成這樣 :
 
 ```
   <servlet>
-    <description></description>
-    <display-name>DispatcherServlet</display-name>
     <servlet-name>DispatcherServlet</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <servlet-class>
+    	org.springframework.web.servlet.DispatcherServlet
+    </servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>DispatcherServlet</servlet-name>
-    <url-pattern>/DispatcherServlet</url-pattern>
+    <url-pattern>/</url-pattern>
   </servlet-mapping>
 ```
 
