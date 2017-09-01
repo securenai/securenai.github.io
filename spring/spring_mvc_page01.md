@@ -29,11 +29,13 @@ published: true
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-web</artifactId>
-    <version>${org.springframework.version}</version>
+    <version>4.3.10.RELEASE</version>
 </dependency>
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-webmvc</artifactId>
-    <version>${org.springframework.version}</version>
+    <version>4.3.10.RELEASE</version>
 </dependency>
 ```
+
+![Spring](spring_images/springmvcexample1.png)
