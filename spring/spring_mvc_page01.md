@@ -19,6 +19,9 @@ published: true
 
 為了要匯入 Spring MVC 相關的 jar 檔，建議將專案 configure 成 Maven Project，接下來就可以在 Pom.xml 裡加上 Spring MVC 所需要的 Dependency，要使用 Spring Web 以及要 Servlet 的支援，就必須加入以下兩個 Dependency。
 
+1. <a href="https://mvnrepository.com/artifact/org.springframework/spring-web" target="_blank">spring-web</a>
+2. <a href="https://mvnrepository.com/artifact/org.springframework/spring-webmvc" target="_blank">spring-webmvc</a>
+
 `spring-web` 包含了一些很常用的 web 及 servlet 的功能，而 `spring-webmvc` 提供 servlet 環境正常的 MVC 支援，
 不過由於 `spring-webmvc` 已經有 `spring-web` 作為它的 dependency 之一了，所以當我們在使用 `spring-webmvc` 時就可以不需要 spring-web，因此其實 dependency 加入 `spring-webmvc` 即可。
 
