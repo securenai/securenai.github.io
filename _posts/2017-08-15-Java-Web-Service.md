@@ -13,7 +13,7 @@ SOAP(Single Object Access Protocal) 為兩平台交換資料的標準協定，�
 * Client
 * Server
 
-![ws_intro_01.png](/assets/images/post_images/ws_intro_01.png)
+![ws_intro_01.png](/assets/images/post_images/ws/ws_intro_01.png)
 
 Client 要能夠與服務供應者(Service provider)溝通的話，Client 就得知道以下資訊:
 
@@ -42,11 +42,11 @@ Client 需要以上資訊方能使用 web service，因此只要 web service 提
 
 步驟 : [new] --> [Dynamic Web Project]
 
-![ws_soapws_01.png](/assets/images/post_images/ws_soapws_01.png)
+![ws_soapws_01.png](/assets/images/post_images/ws/ws_soapws_01.png)
 
 在該專案下的 src 裡 建立一個 package:(參考如下)
 
-![ws_soapws_02.png](/assets/images/post_images/ws_soapws_02.png)
+![ws_soapws_02.png](/assets/images/post_images/ws/ws_soapws_02.png)
 
 ### 利用 eclipse 建立 JAX-WS web service
 
