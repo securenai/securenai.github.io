@@ -6,7 +6,7 @@ description: Java Web Service
 keywords: dummy content
 published: true
 ---
-# SOAP
+### SOAP
 
 SOAP(Single Object Access Protocal) 為兩平台交換資料的標準協定，主要為 XML 的形式，Server 和 Client 之間彼此使用XML 的訊息來互相溝通。一個基本的 web service 架構至少要有兩種元件:
 
@@ -14,6 +14,26 @@ SOAP(Single Object Access Protocal) 為兩平台交換資料的標準協定，�
 * Server
 
 ![ws_intro_01.png](/assets/images/post_images/ws_intro_01.png)
+
+Client 要能夠與服務供應者(Service provider)溝通的話，Client 就得知道以下資訊:
+
+* 服務供應者的 Server 位於哪裡
+* 該 Service 提供了哪些的功能(functions)，以及這些 function 以何種形式回傳
+* 溝通的協定為何
+* 輸入及輸出的格式是什麼
+
+服務供應者會產出一個標準的 XML file，裡頭包含了以上資訊的條件，如果這個檔案提供給 Client ，Client 就可以與 Web Service 溝通了，此 XML 檔被稱為 WSDL。
+
+
+### WSDL
+
+WSDL(Web Service Description Language) 為一個描述如何在技術上實作 web service 的詳細資訊 XML 的檔案，更詳細的說就是 URI，port，方法名稱，需要用到的引數以及資料種類等。既然為一個 XML 檔，代表人可以看得懂，電腦也能夠讀，透過 WSDL 檔我們可以知道以下資訊:
+
+* Port / Endpoint –  web service 的 URL
+* 輸入/輸出訊息的格式
+* 需要遵守的安全協定
+* web service 使用了那些協定
+
 
 開啟 eclipse 建立一個 Maven 專案:
 
