@@ -64,6 +64,8 @@ public class HelloWorld {
 
 ![ws_soapws_03.png](/assets/images/post_images/ws/ws_soapws_03.png)
 
+123
+
 ![ws_soapws_04.png](/assets/images/post_images/ws/ws_soapws_04.png)
 
 ### 利用 eclipse 建立 JAX-WS web service
