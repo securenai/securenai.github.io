@@ -34,6 +34,9 @@ WSDL(Web Service Description Language) 為一個描述如何在技術上實作 w
 * 需要遵守的安全協定
 * web service 使用了那些協定
 
+Client 需要以上資訊方能使用 web service，因此只要 web service 提供 WSDL 給 Client，就可以讓 Client 使用 web service 了。
+
+### 利用 eclipse 建立 SOAP web service
 
 開啟 eclipse 建立一個 Maven 專案:
 
