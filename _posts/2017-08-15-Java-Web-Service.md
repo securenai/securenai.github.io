@@ -68,6 +68,14 @@ public class HelloWorld {
 
 ![ws_soapws_04.png](/assets/images/post_images/ws/ws_soapws_04.png)
 
+專案架構應類似如下:
+
+![ws_soapws_05.png](/assets/images/post_images/ws/ws_soapws_05.png)
+
+789
+
+![ws_soapws_06.png](/assets/images/post_images/ws/ws_soapws_06.png)
+
 ### 利用 eclipse 建立 JAX-WS web service
 
 
