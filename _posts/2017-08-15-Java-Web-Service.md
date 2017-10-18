@@ -38,6 +38,15 @@ Client 需要以上資訊方能使用 web service，因此只要 web service 提
 
 ### 利用 eclipse 建立 SOAP web service
 
+開啟 eclipse 建立一個 dynamic web 專案:
+
+步驟 : [new] --> [Dynamic Web Project]
+
+![ws_soapws_01.png](/assets/images/post_images/ws_soapws_01.png)
+
+### 利用 eclipse 建立 JAX-WS web service
+
+
 開啟 eclipse 建立一個 Maven 專案:
 
 步驟 : [new] --> [other]--> [Maven] --> [Maven Project]
