@@ -7,6 +7,15 @@ keywords: dummy content
 published: true
 ---
 
+#SOAP
+
+SOAP(Single Object Access Protocal) 為兩平台交換資料的標準協定，主要為 XML 的形式，Server 和 Client 之間彼此使用XML 的訊息來互相溝通。一個基本的 web service 架構至少要有兩種元件:
+
+1.Client
+2.Server
+
+![ws_intro_01.png](/assets/images/post_images/ws_intro_01.png)
+
 開啟 eclipse 建立一個 Maven 專案:
 
 步驟 : [new] --> [other]--> [Maven] --> [Maven Project]
@@ -84,5 +93,3 @@ artifact id : hellows [我的例子，您可以自訂]
   </dependency>
 </dependencies>
 ```
-
-
