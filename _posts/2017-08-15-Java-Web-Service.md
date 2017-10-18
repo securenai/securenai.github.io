@@ -6,13 +6,12 @@ description: Java Web Service
 keywords: dummy content
 published: true
 ---
-
-#SOAP
+# SOAP
 
 SOAP(Single Object Access Protocal) 為兩平台交換資料的標準協定，主要為 XML 的形式，Server 和 Client 之間彼此使用XML 的訊息來互相溝通。一個基本的 web service 架構至少要有兩種元件:
 
-1.Client
-2.Server
+* Client
+* Server
 
 ![ws_intro_01.png](/assets/images/post_images/ws_intro_01.png)
 
