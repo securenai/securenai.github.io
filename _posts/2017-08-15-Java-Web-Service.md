@@ -48,6 +48,22 @@ Client 需要以上資訊方能使用 web service，因此只要 web service 提
 
 ![ws_soapws_02.png](/assets/images/post_images/ws/ws_soapws_02.png)
 
+在 package 下建立一個新的 Class 為 `HelloWorld.java`
+
+```
+package com.securenai.webservice;
+
+public class HelloWorld {
+	
+	public String sayHelloWorld(String name){
+		return "Hello World " + name;
+	}
+}
+```
+接下來再專案裡 new 一個 web service 的專案
+
+![ws_soapws_03.png](/assets/images/post_images/ws/ws_soapws_03.png)
+
 ### 利用 eclipse 建立 JAX-WS web service
 
 
