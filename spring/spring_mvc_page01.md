@@ -12,6 +12,12 @@ comments: true
 published: true
 ---
 
+<a href="/spring/">Spring</a> >>
+<a href="/spring/spring_page1/">Spring 簡介</a> >>
+<a href="/spring/spring_page2/">Spring Container</a> >> <a href="/spring/spring_page3/">Spring Beans</a> >> <a href="/spring/spring_page4/">Dependency Injection</a>
+<a href="/spring/spring_mvc_page01/" style="color:palevioletred;background-color:papayawhip;">Spring MVC介紹</a>
+<div class="divider"></div>
+
 ### Dispatcher Servlet
 
 Spring MVC 的核心觀念之一就是 Dispatcher Servlet，簡單來說 Spring MVC Framework 的設計圍繞者這個 Dispatcher Servlet，它的功用在於在最前線將所有的 http request 分派到正確的 handler，分派的機制由我們去設定，由 Dispatcher Servlet 去執行，它就是一個在最前線的 Controller，單獨的接收 Http 請求，分派到 application 的其他 controller 或是 handler。
@@ -84,4 +90,3 @@ web.xml 是....
 加入方式 : 
 
 ![Spring](spring_images/springmvcexample3.png)
-
