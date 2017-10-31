@@ -7,7 +7,7 @@
 
 <div class="divider"></div>
 ### Controllers
-在 src 目錄下加入一個新的 package 並建立一個 Class 叫作 controller :
+在 src 目錄下加入一個新的 package 並建立一個 Class 叫作 TestController :
 
 ```
 package com.example.controller;
