@@ -7,7 +7,27 @@
 
 <div class="divider"></div>
 ### Controllers
+在 src 目錄下加入一個新的 package 並建立一個 Class 叫作 controller :
 
-在 DispatcherServlet-servlet.xml 檔加入該行程式 : 
+```
+package com.example.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestController{
+	@RequestMapping(value="/TestController/test")
+	public void test(){
+		System.out.println("hi???");
+	}
+}
+```
+
+在 `DispatcherServlet-servlet.xml` 檔加入該行程式 : 
+
+```
+<context:component-scan base-package="com.example.controller" />
+```
 
 <!--![Spring](spring_images/springoverview01.png)-->
