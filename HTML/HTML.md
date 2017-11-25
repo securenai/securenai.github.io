@@ -8,7 +8,7 @@ keywords: 'markdown, typography components, dummy content'
 published: true
 ---
 
-![SPRING](HTML_images/html_intro.png)
+![HTML](HTML_images/html_intro.png)
 
 ## HTML 是....
 
