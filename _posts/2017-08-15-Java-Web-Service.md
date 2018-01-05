@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Java Web Service
+title: Java Web Service(SOAP)
 comments: true
-description: Java Web Service
+description: Java Web Service(SOAP)
 keywords: dummy content
 published: true
 ---
