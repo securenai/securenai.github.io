@@ -10,15 +10,15 @@ published: true
 
 ![Javascript](javascript_images/javascript_intro.gif)
 
-## REACT 是....
+## Javascript 是....
 
-React.js是由Facebook內部所開發的JavaScript函式庫，在Virtual DOM的基礎下重新定義了使用者介面的開發方式。React.js將PHP風格的工作流程帶到用戶端應用程式，改變使用者對前端框架的認識。由於React.js僅關注於更新DOM以及回應事件，這種特性也讓React可自由的與眾多不同的系統做整合。
+javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是。
 
 <div class="divider"></div>
 
 ## 目錄
 
-1. [**React 簡介**](/react/react_page1)
+1. [**Javascript 簡介**](/javascript/javascript_page1)
 2. Second item
 
 * Unordered list can use asterisks
@@ -33,4 +33,4 @@ React.js是由Facebook內部所開發的JavaScript函式庫，在Virtual DOM的�
 
 2: [**Facebook open source**](https://facebook.github.io/react/) <--md
 
-3: **<a href="https://facebook.github.io/react/" target="_blank">Facebook open source</a>** <--html
+3: **<a href="https://facebook.github.io/javascript/" target="_blank">Facebook open source</a>** <--html
