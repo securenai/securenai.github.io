@@ -8,7 +8,7 @@ keywords: 'markdown, typography components, dummy content'
 published: true
 ---
 
-![Javascript](javascript_images/javascript_intro.png)
+![Javascript](javascript_images/javascript_intro.gif)
 
 ## REACT 是....
 
