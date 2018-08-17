@@ -55,6 +55,8 @@ navbar:
     title: About
   - slug : HTML
     title: HTML
+  - slug : JAVASCRIPT
+    title: JAVASCRIPT
   - slug : react
     title: React
   - slug : spring
