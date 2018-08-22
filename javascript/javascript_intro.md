@@ -12,7 +12,7 @@ comments: true
 published: true
 ---
 
-<a href="/javascript/">React</a> >>
+<a href="/javascript/">Javascript</a> >>
 <a href="/javascript/javascript_intro/" style="color:palevioletred;background-color:papayawhip;">javascript intro</a> >>
 <a href="/javascript/javascript_variables/">variables</a> >>
 <a href="/javascript/javascript_functions/">functions</a> >>
