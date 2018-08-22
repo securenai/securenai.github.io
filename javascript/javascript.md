@@ -10,16 +10,18 @@ published: true
 
 ![Javascript](javascript_images/javascript_intro.gif)
 
-## Javascript 是....
+## Javascript is....
 
-javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是javascript是。
+JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.x. having complex animations, clickable buttons, popup menus, etc.).  There are also more advanced server side versions of javascript such as Node.Js which allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
 <div class="divider"></div>
 
 ## 目錄
 
-1. [**Javascript 簡介**](/javascript/javascript_intro)
-2. Second item
+1. [**Javascript intro**](/javascript/javascript_intro)
+2. [**variables**](/javascript/javascript_variables)
+3. [**functions**](/javascript/javascript_functions)
+4. [**objects**](/javascript/javascript_objects)
 
 * Unordered list can use asterisks
 - Or minuses
