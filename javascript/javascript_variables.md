@@ -1,5 +1,5 @@
 ---
-title: Javascript 簡介
+title: Variables
 description: >-
   Automate your task for sending email notification with PowerShell script and
   Windows SMTP Client.
@@ -14,7 +14,7 @@ published: true
 
 <a href="/javascript/">Javascript</a> >>
 <a href="/javascript/javascript_intro/">javascript intro</a> >>
-<a href="/javascript/javascript_variables/  style="color:palevioletred;background-color:papayawhip;"">variables</a> >>
+<a href="/javascript/javascript_variables/" style="color:palevioletred;background-color:papayawhip;">variables</a> >>
 <a href="/javascript/javascript_functions/">functions</a> >>
 <a href="/javascript/javascript_objects/">objects</a> >>
 <div class="divider"></div>
