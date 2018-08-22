@@ -18,7 +18,7 @@ javascript是javascript是javascript是javascript是javascript是javascript是ja
 
 ## 目錄
 
-1. [**Javascript 簡介**](/javascript/javascript_page1)
+1. [**Javascript 簡介**](/javascript/javascript_intro)
 2. Second item
 
 * Unordered list can use asterisks
