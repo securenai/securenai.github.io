@@ -27,6 +27,6 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 
 <div class="divider"></div>
 
-參考資料:
+Reference material 參考資料 :
 
-1: **<a href="https://vuejs.org/v2/guide/" target="_blank">Vue Documentation</a>** <--html
+1: **<a href="https://vuejs.org/v2/guide/" target="_blank">Vue Documentation</a>**
