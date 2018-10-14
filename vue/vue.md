@@ -8,7 +8,7 @@ keywords: 'markdown, typography components, dummy content'
 published: true
 ---
 
-![React](react_images/react_intro.png)
+![Vue](vue_images/vue_intro.png)
 
 ## VUE 是....
 
