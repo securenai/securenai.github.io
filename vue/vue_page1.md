@@ -42,25 +42,25 @@ DOM 元素主要由三樣東西組成等
 簡單的 Hello World 例子
 ```
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
-    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="text/babel">
-
-      ReactDOM.render(
-        <h1>Hello, world!</h1>,
-        document.getElementById('root')
-      );
-
-    </script>
-  </body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+	    <title>Hello World</title>
+	    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	</head>
+	<body>
+		<div id="helloWorld">
+			<h1>{{title}}</h1>
+		</div>
+		<script type="text/javascript">
+			var helloWorld = new Vue({
+				el:'#helloWorld',
+				data:{
+					title:"Hello, world!"
+				}
+			});
+		</script>
+	</body>
 </html>
 ```
 
