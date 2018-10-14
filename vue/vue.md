@@ -29,8 +29,4 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 
 參考資料:
 
-1: Footnote number one yeah baby!
-
-2: [**Facebook open source**](https://facebook.github.io/react/) <--md
-
-3: **<a href="https://facebook.github.io/react/" target="_blank">Facebook open source</a>** <--html
+1: **<a href="https://vuejs.org/v2/guide/" target="_blank">Vue Documentation</a>** <--html
