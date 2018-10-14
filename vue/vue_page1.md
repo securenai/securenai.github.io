@@ -48,10 +48,10 @@ DOM 元素主要由三樣東西組成等
 	<title>Hello World</title>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     </head>
-	<body>
-	    <div id="helloWorld">
-		<h1>{{title}}</h1>
-	    </div>
+    <body>
+	<div id="helloWorld">
+	    <h1>{{title}}</h1>
+	</div>
 	<script type="text/javascript">
 	    var helloWorld = new Vue({
 		    el:'#helloWorld',
