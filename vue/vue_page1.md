@@ -50,7 +50,7 @@ DOM 元素主要由三樣東西組成等
     </head>
     <body>
 	<div id="helloWorld">
-	    <h1>&#123;&#123;title&#125;&#125;</h1>
+	    <h1>{% raw %}{{title}}{% endraw %}</h1>
 	</div>
 	<script type="text/javascript">
 	    var helloWorld = new Vue({
