@@ -14,7 +14,8 @@ published: true
 
 <a href="/vue/">Vue</a> >>
 <a href="/vue/vue_page1/" style="color:palevioletred;background-color:papayawhip;">Vue 簡介</a> >>
-<a href="/vue/vue_page2/">JSX</a> >>
+<a href="/vue/vue_page2/">Vue instance</a> >>
+<a href="/vue/vue_page3/">Vue template syntax</a> >>
 <div class="divider"></div>
 
 ### Vue.js
@@ -22,7 +23,7 @@ published: true
 Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
 
 ### Vue 物件(Instance)
-為Vue應用的根源，以 `new` 這個 keyword 來建立。 可以把一個含有資料的物件或方法傳給這個Vue的物件。一旦交付給Vue物件之後，此物件就可以被Vue的模組(Template)用來展現出你在Vue物件所定義出的行為。
+為Vue應用的根源，以 `new` 這個 keyword 來建立。 可以把一個含有資料的物件或方法傳給這個Vue的物件。一旦交付給 Vue 物件之後，此物件就可以被 Vue 的模組(Template)用來展現出你在Vue物件所定義出的行為。
 
 Vue Instance 範例 :
 ```
@@ -40,7 +41,7 @@ new Vue({
 
 
 ### Vue 模組化(Template)
-一個Vue模組通常由HTML以及資料綁定(data-binding)組成。可藉由該模組定義Vue應該如何呈現你的資料。
+一個 Vue 模組通常由 HTML 以及資料綁定(data-binding)組成。可藉由該模組定義Vue應該如何呈現你的資料。
 
 Vue Template 範例 :
 ```
@@ -53,7 +54,7 @@ Vue Template 範例 :
 
 ### Data Binding
 
-資料綁定通常指應用程式的資料與應用程式的使用者介面(UI)做一個連繫(connection)，Vue會確保我們在Vue instance定義的資料會跟Vue template保持同步的狀態。
+資料綁定通常指應用程式的資料與應用程式的使用者介面(UI)做一個連繫(connection)， Vue 會確保我們在Vue instance 定義的資料會跟 Vue template 保持同步的狀態。
 
 以下為簡單的 Hello World 例子來說明Vue如何運作:
 ```
