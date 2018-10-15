@@ -54,7 +54,7 @@ DOM 元素主要由三樣東西組成等
 	ReactDOM.render(
 	    <h1>Hello, world!</h1>,
 
-document.body
+	    document.body
 	    );
     </script>
 </body>
