@@ -50,12 +50,12 @@ DOM 元素主要由三樣東西組成等
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 </head>
 <body>
-	<script type="text/babel">
-		ReactDOM.render(
-		<h1>Hello, world!</h1>,
-		document.body
-		);
-	</script>
+    <script type="text/babel">
+	ReactDOM.render(
+	    <h1>Hello, world!</h1>,
+	    document.body
+	    );
+    </script>
 </body>
 </html>
 ```
