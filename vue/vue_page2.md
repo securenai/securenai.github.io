@@ -63,7 +63,8 @@ new Vue({
 });
 ```
 結果 : 網頁會顯示
-![](vue_images/vue_page2_pic1.png)
+
+![Vue](vue_images/vue_page2_pic1.png)
 
 <div class="pagenation_center">
   <div  class="pagenation_center_inner">
