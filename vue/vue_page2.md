@@ -15,7 +15,7 @@ published: true
 <a href="/vue/">Vue</a> >>
 <a href="/vue/vue_page1/">Vue 簡介</a> >>
 <a href="/vue/vue_page2/" style="color:palevioletred;background-color:papayawhip;">Vue 實例</a> >>
-<a href="/vue/vue_page3/">Vue 模組語法</a> >>
+<a href="/vue/vue_page3/">Vue 模組</a> >>
 <div class="divider"></div>
 
 ### Vue 實例(Instance)
@@ -62,4 +62,12 @@ new Vue({
   }
 });
 ```
+結果 : 網頁會顯示
+![](vue_images/vue_page2_pic1.png)
 
+<div class="pagenation_center">
+  <div  class="pagenation_center_inner">
+  |<a class="pagenation_link" href="/vue/vue_page1"> 上一頁</a> |
+   <a class="pagenation_link" href="/vue/vue_page3"> 下一頁 </a> |
+  </div>
+</div>
