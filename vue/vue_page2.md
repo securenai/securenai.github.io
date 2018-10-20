@@ -26,7 +26,9 @@ var vm = new Vue({
 })
 ```
 變數命名為 vm( ViewModel 簡稱) 跟  MVVM pattern 有些關系，因 Vue 的設計靈感來自它，但這不是重點。
+
 當你宣告了一個 Vue 的實例後，你會在裡面賦予該 Instance 你想要的物件或方法，這些物件跟方法可以達到你想要你網頁呈現的樣貌及行為。
+
 用 `new Vue` 所建立出來的 Instance 視為 root Vue instance，也就是 Vue 的"根"，而根底下所衍伸出來的分支就是你所定義的各種物件和方法。 
 
 > 參考資料(英文) **<a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_blank"> MVVM pattern</a>**
