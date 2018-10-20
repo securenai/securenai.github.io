@@ -84,7 +84,7 @@ Vue Template 範例 :
 ---
 <div class="pagenation_center">
   <div  class="pagenation_center_inner">
-  |<a class="pagenation_link" href="react/"> 上一頁</a> |
-   <a class="pagenation_link" href="/react/react_page2"> 下一頁 </a> |
+  |<a class="pagenation_link" href="vue/"> 上一頁</a> |
+   <a class="pagenation_link" href="/vue/vue_page2"> 下一頁 </a> |
   </div>
 </div>
