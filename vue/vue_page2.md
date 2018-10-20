@@ -34,52 +34,29 @@ var vm = new Vue({
 > 參考資料(英文) **<a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel" target="_blank"> MVVM pattern</a>**
 
 
-### Data
-一個 Vue 模組通常由 HTML 以及資料綁定(data-binding)組成。可藉由該模組定義Vue應該如何呈現你的資料。
+### el
+當看到 Vue Instance 裡有定義 `el` 這樣的東西，表示這個 el 目前只到你網頁的哪一個 template，以下例子來說 el 對應到一個 id 為 element 的元素，
+如果你有在你的 html 網頁中給予某一個元素該 element 的 Id，那這個 Vue 的實例裡被定義出的所有物件和行為都會去與該元素進行同步的變化。
 
-Vue Template 範例 :
+
+### data
+data 為該 Vue Instance 底下物件的被賦予的屬性，當需要用到時，可拿這些屬性提供給你的 template，網頁就會識別出該資料屬性並正確的表示它所代表的值。
+
+範例
+如果我的 html 網頁有一個 div 元素，id 是 element，我的 {{title}} 就會被 data 裡所定義的 title : "abc" 給取代。
+
 ```
 <div id="element">
-  <h1>{{ property1 }}</h1>
-  <h2>{{ property2 }}</h2>
-  <p> {{ property3 }} </p>
+    <h1>{% raw %}{{title}}{% endraw %}</h1>
 </div>
 ```
 
-### Data Binding
-
-資料綁定通常指應用程式的資料與應用程式的使用者介面(UI)做一個連繫(connection)， Vue 會確保我們在Vue instance 定義的資料會跟 Vue template 保持同步的狀態。
-
-以下為簡單的 Hello World 例子來說明Vue如何運作:
 ```
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-	<meta charset="UTF-8" />
-	<title>Hello World</title>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-    </head>
-    <body>
-	<div id="helloWorld">
-	    <h1>{% raw %}{{title}}{% endraw %}</h1>
-	</div>
-	<script type="text/javascript">
-	    var helloWorld = new Vue({
-		    el:'#helloWorld',
-		    data:{
-		        title:"Hello, world!"
-		    }
-		});
-	</script>
-    </body>
-</html>
+new Vue({
+   el: '#element',
+   data: {
+     title: "abc"
+  }
+});
 ```
-
----
-<div class="pagenation_center">
-  <div  class="pagenation_center_inner">
-  |<a class="pagenation_link" href="react/"> 上一頁</a> |
-   <a class="pagenation_link" href="/react/react_page2"> 下一頁 </a> |
-  </div>
-</div>
 
