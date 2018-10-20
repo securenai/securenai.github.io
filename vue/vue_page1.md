@@ -14,7 +14,7 @@ published: true
 
 <a href="/vue/">Vue</a> >>
 <a href="/vue/vue_page1/" style="color:palevioletred;background-color:papayawhip;">Vue 簡介</a> >>
-<a href="/vue/vue_page2/">Vue 物件</a> >>
+<a href="/vue/vue_page2/">Vue 實例</a> >>
 <a href="/vue/vue_page3/">Vue 模組語法</a> >>
 <div class="divider"></div>
 
@@ -22,8 +22,8 @@ published: true
 
 Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
 
-### Vue 物件(Instance)
-為Vue應用的根源，以 `new` 這個 keyword 來建立。 可以把一個含有資料的物件或方法傳給這個Vue的物件。一旦交付給 Vue 物件之後，此物件就可以被 Vue 的模組(Template)用來展現出你在Vue物件所定義出的行為。
+### Vue 實例(Instance)
+為Vue應用的根源，以 `new` 這個 keyword 來建立。 可以把一個含有資料的物件或方法傳給這個Vue Instance。一旦交付給 Vue Instance 之後，此 Instance 就可以被 Vue 的模組(Template)用來展現出你在Vue物件所定義出的行為。
 
 Vue Instance 範例 :
 ```
