@@ -19,7 +19,8 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 ## 目錄
 
 1. [**Vue 簡介**](/vue/vue_page1)
-2. Second item
+2. [**Vue 實例**](/vue/vue_page2)
+3. [**Vue 模組**](/vue/vue_page3)
 
 * Unordered list can use asterisks
 - Or minuses
