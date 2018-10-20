@@ -14,8 +14,8 @@ published: true
 
 <a href="/vue/">Vue</a> >>
 <a href="/vue/vue_page1/" style="color:palevioletred;background-color:papayawhip;">Vue 簡介</a> >>
-<a href="/vue/vue_page2/">Vue instance</a> >>
-<a href="/vue/vue_page3/">Vue template syntax</a> >>
+<a href="/vue/vue_page2/">Vue 物件</a> >>
+<a href="/vue/vue_page3/">Vue 模組語法</a> >>
 <div class="divider"></div>
 
 ### Vue.js
