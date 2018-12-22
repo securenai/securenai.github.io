@@ -23,13 +23,12 @@ published: true
 
 js物件可被視為一群屬性的集合，物件的好處就是透過將許資料(屬性`properties`跟方法`methods`)打包後供我們方便使用，
 
-物件的屬性透過key-value的形式儲存，是為該物件量身打造的屬性，屬性告訴我們有關於該物件的相關資訊。物件方法是專門對該物件做特定的行為。
+物件的屬性透過key-value的形式儲存，是為該物件量身打造的屬性，屬性告訴我們有關於該物件的相關資訊。
 
 其實屬性跟方法說穿了就是變數跟函數，只是它們被定義在物件裡面時，習慣把它們稱為屬性跟方法。
 
 ### 利用 Object literal 創造物件
 Object literal 是創造js object的一種方式，語法如下:
-
 ```
 var book = { }
 ```
@@ -37,19 +36,35 @@ var book = { }
 利用 `var` or `const`(ES6)來宣告一個變數book，並用"{ }"assign給book，目前此為一個空的物件。
 
 接下來要定義該物件的一些屬性properties，就以key-value的形式定義之:
-
 ```
 var book = { 
   name : 'javascript',
   pages : 600,
-  author : 'Alex'
+  author : 'Alex',
+  copies : 250,
+  sold : 200;
 }
 ```
-其中 `name`、`pages`、`author`都是剛剛定義的屬性，明顯的看得出它們述說者物件book的一些資訊，這就是屬性的意義。
+`name`、`pages`、`author`、`copies`、`sold`都是剛剛定義的屬性，明顯的看得出它們述說者物件book的一些資訊，這就是屬性的意義。
 
-其中key-value的概念，比方看name的屬性定義:左邊是key，也就是屬性的名稱，叫做key，而右邊就是屬性的value(值)，叫'javascript'，同一個物件不可宣告兩個相同key的屬性。
+談到語法，屬性的定義遵守key-value的概念，屬性key跟value以冒號隔開，以name的屬性來說:左邊是key，也就是屬性的名稱，叫做name，而右邊就是屬性的value(值)，叫'javascript'，同一個物件不可宣告兩個相同key的屬性，多個屬性時，每個屬性後面須以逗號隔開，最後一個被定義的屬性以分號結尾。
 
-再來要定義該物件的方法methods，就以key-value的形式定義之:
+再來要定義該物件的方法(method):
+```
+var book = { 
+  name : 'javascript',
+  pages : 600,
+  author : 'Alex',
+  copies : 250,
+  sold : 200,
+  checkStock : function(){
+    return book.copies - book.sold;
+  }
+}
+```
+當我們定義一個leftInstock屬性，而key是一個函數function時，這就會視為物件的方法method，回傳一個結果，function裡面的程式若看不懂沒關係，後面會解釋，目前只需要知道方法精神在於呼叫物件的行為，以此例來說當你呼叫checkStock時，可以得知目前這本書還剩下多少庫存。
+
+所以結論是，物件的精神在於將許多資訊(屬性和方法)包裝在一起，成為一個物件，這些資訊僅為此物件擁有，必須透過該物件才能使用其屬性和方法，有封裝的概念。
 
 
 > 參考資料(英文) **<a href="https://tylermcginnis.com/imperative-vs-declarative-programming/" target="_blank"> Imperative vs Declarative Programming</a>**
