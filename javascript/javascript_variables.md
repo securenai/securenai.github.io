@@ -7,7 +7,7 @@ keywords: >-
   software build automation, send email notification, using smtp client in
   powershell, software build notification
 tags:
-  - ReactJS
+  - javascript
 comments: true
 published: true
 ---
