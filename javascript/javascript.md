@@ -18,7 +18,7 @@ published: true
 
 ## 目錄
 
-1. [**Javascript intro**](/javascript/javascript_intro)
+1. [**Javascript 簡介**](/javascript/javascript_intro)
 2. [**variables**](/javascript/javascript_variables)
 3. [**functions**](/javascript/javascript_functions)
 4. [**objects**](/javascript/javascript_objects)
