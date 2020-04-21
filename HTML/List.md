@@ -81,8 +81,4 @@
 <div class="divider"></div>
 參考資料:
 
-1: Footnote number one yeah baby!
-
-2: [**Facebook open source**](https://facebook.github.io/react/) <--md
-
-3: **<a href="https://facebook.github.io/react/" target="_blank">Facebook open source</a>** <--html
+1: **<a href="http://html5doctor.com/the-dl-element/" target="_blank">The dl element</a>** <--html
