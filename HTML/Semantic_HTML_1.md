@@ -14,7 +14,7 @@
 
 <div class="divider"></div>
 
-### &lt;header&gt;
+### &lt;header&gt;、&lt;section&gt;、&lt;footer&gt;
 
 ```
 <!DOCTYPE html>
@@ -22,12 +22,20 @@
 <head>
 </head>
 <body>
-   <ul>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
-   </ul>
+  <header>
+    <ul>
+       <li>home</li>
+       <li>page</li>
+       <li>about</li>
+       <li>contact</li>
+     </ul>
+   </header>
+   <section>
+     <p>content is here</p>
+   </section>
+   <footer>
+   &copy 2020 abc page
+   </footer>
 </body>
 </html>
 ```
@@ -36,49 +44,25 @@
 <head>
 </head>
 <body>
-   <ul>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
-   </ul>
+   <header>
+    <ul>
+       <li>home</li>
+       <li>page</li>
+       <li>about</li>
+       <li>contact</li>
+     </ul>
+   </header>
+   <section>
+     <p>content is here</p>
+   </section>
+   <footer>
+   &copy 2020 abc page
+   </footer>
 </body>
 </html>
 
 <div class="divider"></div>
 
-### &lt;footer&gt;
-
-```
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-   <ol>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
-   </ol>
-</body>
-</html>
-```
-結果 : 
-<html>
-<head>
-</head>
-<body>
-   <ol>
-     1.item1<br>
-     2.item2<br>
-     3.item3<br>
-     4.item4<br>
-   </ol>
-</body>
-</html>
-
-<div class="divider"></div>
 參考資料:
 
 1: **<a href="http://html5doctor.com/the-dl-element/" target="_blank">The dl element</a>**
