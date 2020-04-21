@@ -81,4 +81,4 @@
 <div class="divider"></div>
 參考資料:
 
-1: **<a href="http://html5doctor.com/the-dl-element/" target="_blank">The dl element</a>** <--html
+1: **<a href="http://html5doctor.com/the-dl-element/" target="_blank">The dl element</a>**
