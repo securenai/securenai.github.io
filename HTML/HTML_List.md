@@ -14,23 +14,30 @@
 
 <div class="divider"></div>
 
-### &lt;ul&gt
+<div>
+  <span>
+      ### &lt;ul&gt;
 
-```
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-   <ul>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
-   </ul>
-</body>
-</html>
-```
+      ```
+      <!DOCTYPE html>
+      <html>
+      <head>
+      </head>
+      <body>
+         <ul>
+           <li>item1</li>
+           <li>item2</li>
+           <li>item3</li>
+           <li>item4</li>
+         </ul>
+      </body>
+      </html>
+      ```
+    </span>
+  	<span>
+      12345
+   </span> 
+</div>
 
 1. [**HTML 簡介**](/spring/spring_page1)
 2. [**HTML List**](/HTML/HTML_List)
