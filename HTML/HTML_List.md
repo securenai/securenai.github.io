@@ -1,8 +1,8 @@
-## HTML LIST
+## &lt;ul&gt;、&lt;ol&gt; and &lt;dl&gt;
 
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a>** - unordered list
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a>** - ordered list
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a>** - description list
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ol&gt;</a>** - ordered list
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;dl&gt;</a>** - description list
 
 <div class="divider"></div>
 
