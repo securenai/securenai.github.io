@@ -80,17 +80,26 @@
   <head>
   </head>
   <body>
-     <a>google1</a>
-     <a>google2</a>
+     <a href="https://www.google.com.tw">google</a>
+     <a href="https://www.google.com.tw" target="_blank">google on new browser tag</a>
   </body>
 </html>
 ```
+結果 : 
+<html>
+  <head>
+  </head>
+  <body>
+     <a href="https://www.google.com.tw">google site</a>
+     <a href="https://www.google.com.tw" target="_blank">google site on a new browser tag</a>
+  </body>
+</html>
 
 
 參考資料:
 
-1: Footnote number one yeah baby!
+1: **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML attribute reference – MDN</a>
 
-2: [**Facebook open source**](https://facebook.github.io/react/) <--md
+2: **<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" target="_blank">Creating hyperlinks – MDN</a>**[**Facebook open source**](https://facebook.github.io/react/) <--md
 
-3: **<a href="https://facebook.github.io/react/" target="_blank">Facebook open source</a>** <--html
+3: **<a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL#Absolute_URLs_vs_relative_URLs" target="_blank">Absolute URLs vs relative URLs – MDN</a>**
