@@ -1,16 +1,16 @@
 
 <a href="/HTML/">HTML</a> >>
 <a href="/HTML/Headings_Paragraphs_Links/">Headings/Paragraphs/Links</a> >>
-<a href="/HTML/List/"List</a> >>
+<a href="/HTML/List/">List</a> >>
 <a href="/HTML/Semantic_HTML_1/" style="color:palevioletred;background-color:papayawhip;">Semantic HTML 1</a> >>
 <a href="/HTML/Semantic_HTML_2/">Semantic HTML 2</a> >>
 <div class="divider"></div>
 
 ### &lt;header&gt;、&lt;footer&gt; and &lt;section&gt;
 
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">&lt;ul&gt;</a>** - header
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">&lt;ol&gt;</a>** - footer
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">&lt;dl&gt;</a>** - section
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>** - header
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">&lt;footer&gt;</a>** - footer
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a>** - section
 
 <div class="divider"></div>
 
