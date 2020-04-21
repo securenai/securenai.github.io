@@ -1,6 +1,6 @@
 
 <a href="/HTML/">HTML</a> >>
-<a href="/HTML/Headings_Paragraphs_Links/">variables</a> >>
+<a href="/HTML/Headings_Paragraphs_Links/">Headings/Paragraphs/Links</a> >>
 <a href="/HTML/List/" style="color:palevioletred;background-color:papayawhip;">List</a> >>
 <a href="/HTML/???/">???</a> >>
 <a href="/HTML/???/">???</a> >>
@@ -9,8 +9,8 @@
 ### &lt;ul&gt;、&lt;ol&gt; and &lt;dl&gt;
 
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a>** - unordered list
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ol&gt;</a>** - ordered list
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;dl&gt;</a>** - description list
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">&lt;ol&gt;</a>** - ordered list
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">&lt;dl&gt;</a>** - description list
 
 <div class="divider"></div>
 
