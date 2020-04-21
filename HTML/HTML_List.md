@@ -31,7 +31,7 @@
 </body>
 </html>
 ```
-<!DOCTYPE html>
+結果 : 
 <html>
 <head>
 </head>
@@ -47,7 +47,7 @@
 
 <div class="divider"></div>
 
-### &lt;ul&gt;
+### &lt;ol&gt;
 
 ```
 <!DOCTYPE html>
@@ -64,7 +64,7 @@
 </body>
 </html>
 ```
-<!DOCTYPE html>
+結果 : 
 <html>
 <head>
 </head>
