@@ -80,8 +80,8 @@
   <head>
   </head>
   <body>
-     <a href="https://www.google.com.tw">google</a>
-     <a href="https://www.google.com.tw" target="_blank">google on new browser tag</a>
+     <p><a href="https://www.google.com.tw">google site</a></p>
+     <p><a href="https://www.google.com.tw" target="_blank">google site on a new browser tag</a></p>
   </body>
 </html>
 ```
