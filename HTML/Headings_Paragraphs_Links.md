@@ -90,16 +90,16 @@
   <head>
   </head>
   <body>
-     <a href="https://www.google.com.tw">google site</a>
-     <a href="https://www.google.com.tw" target="_blank">google site on a new browser tag</a>
+     <p><a href="https://www.google.com.tw">google site</a></p>
+     <p><a href="https://www.google.com.tw" target="_blank">google site on a new browser tag</a></p>
   </body>
 </html>
 
 
 參考資料:
 
-1: **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML attribute reference – MDN</a>
+1: **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML attribute reference – MDN</a>**
 
-2: **<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" target="_blank">Creating hyperlinks – MDN</a>**[**Facebook open source**](https://facebook.github.io/react/) <--md
+2: **<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" target="_blank">Creating hyperlinks – MDN</a>**
 
 3: **<a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL#Absolute_URLs_vs_relative_URLs" target="_blank">Absolute URLs vs relative URLs – MDN</a>**
