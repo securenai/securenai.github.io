@@ -18,8 +18,8 @@ HTML (HyperText Markup Language/超文本標記語言) 是建立網頁/網站最
 
 ## 目錄
 
-1. [**HTML 標籤(一) - Headings/Paragraphs/Links**](/HTML/Headings_Paragraphs_Links)
-2. [**HTML 標籤(二) - List**](/HTML/List)
+1. [**HTML 標籤(一) - Headings/Paragraphs/Links**](/HTML/HTML_Headings_Paragraphs_Links)
+2. [**HTML 標籤(二) - List**](/HTML/HTML_List)
 3. [**HTML 標籤(三) - **](/HTML/TAG_3)
 4. [**HTML 標籤(四) - **](/HTML/TAG_4)
 5. [**HTML 標籤(五) - **](/HTML/TAG_5)
