@@ -19,7 +19,7 @@ HTML (HyperText Markup Language/超文本標記語言) 是建立網頁/網站最
 ## 目錄
 
 1. [**HTML 簡介**](/spring/spring_page1)
-2. [**HTML List](/HTML/HTML_List)
+2. [**HTML List**](/HTML/HTML_List)
 3. [**HTML 標籤(一)**](/spring/spring_page3)
 4. [**HTML 標籤(二)**](/spring/spring_page4)
 5. [**HTML 標籤(三)**](/spring/spring_mvc_page01)
