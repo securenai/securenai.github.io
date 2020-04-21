@@ -1,7 +1,7 @@
 
 <a href="/HTML/">HTML</a> >>
-<a href="/HTML/HTML_Headings_Paragraphs_Links/">Headings/Paragraphs/Links</a> >>
-<a href="/HTML/HTML_List/" style="color:palevioletred;background-color:papayawhip;">List</a> >>
+<a href="/HTML/Headings_Paragraphs_Links/">Headings/Paragraphs/Links</a> >>
+<a href="/HTML/List/" style="color:palevioletred;background-color:papayawhip;">List</a> >>
 <a href="/HTML/???/">???</a> >>
 <a href="/HTML/???/">???</a> >>
 <div class="divider"></div>
