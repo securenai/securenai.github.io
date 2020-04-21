@@ -70,10 +70,10 @@
 </head>
 <body>
    <ol>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
+     1.item1<br>
+     2.item2<br>
+     3.item3<br>
+     4.item4<br>
    </ol>
 </body>
 </html>
