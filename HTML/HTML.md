@@ -18,12 +18,12 @@ HTML (HyperText Markup Language/超文本標記語言) 是建立網頁/網站最
 
 ## 目錄
 
-1. [**HTML 簡介**](/spring/spring_page1)
-2. [**HTML List**](/HTML/HTML_List)
-3. [**HTML 標籤(一)**](/spring/spring_page3)
-4. [**HTML 標籤(二)**](/spring/spring_page4)
-5. [**HTML 標籤(三)**](/spring/spring_mvc_page01)
-6. [**HTML 標籤(四)**](/spring/spring_mvc_page02)
+1. [**HTML 標籤(一) - Headings/Paragraphs/Links*](/HTML/Headings_Paragraphs_Links)
+2. [**HTML 標籤(二) - List**](/HTML/List)
+3. [**HTML 標籤(三) - **](/HTML/TAG_3)
+4. [**HTML 標籤(四) - **](/HTML/TAG_4)
+5. [**HTML 標籤(五) - **](/HTML/TAG_5)
+6. [**HTML 標籤(六) - **](/HTML/TAG_6)
 
 * Unordered list can use asterisks
 - Or minuses
