@@ -8,9 +8,9 @@
 
 ### &lt;H1&gt;-&lt;H6&gt;、&lt;p&gt; and &lt;a&gt;
 
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;H1&gt;-&lt;H6&gt;</a>** - Heading
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;p&gt;</a>** - Paragraph
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;a&gt;</a>** - Link
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">&lt;H1&gt;-&lt;H6&gt;</a>** - Heading
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">&lt;p&gt;</a>** - Paragraph
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">&lt;a&gt;</a>** - Link
 
 <div class="divider"></div>
 
@@ -22,12 +22,12 @@
 <head>
 </head>
 <body>
-   <ul>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
-   </ul>
+   <H1>Heading1</H1>
+   <H2>Heading2</H2>
+   <H3>Heading3</H3>
+   <H4>Heading4</H4>
+   <H5>Heading5</H5>
+   <H6>Heading6</H6>
 </body>
 </html>
 ```
@@ -36,12 +36,12 @@
 <head>
 </head>
 <body>
-   <ul>
-     <li>item1</li>
-     <li>item2</li>
-     <li>item3</li>
-     <li>item4</li>
-   </ul>
+   <H1>Heading1</H1>
+   <H2>Heading2</H2>
+   <H3>Heading3</H3>
+   <H4>Heading4</H4>
+   <H5>Heading5</H5>
+   <H6>Heading6</H6>
 </body>
 </html>
 
@@ -86,4 +86,3 @@
 2: [**Facebook open source**](https://facebook.github.io/react/) <--md
 
 3: **<a href="https://facebook.github.io/react/" target="_blank">Facebook open source</a>** <--html
-
