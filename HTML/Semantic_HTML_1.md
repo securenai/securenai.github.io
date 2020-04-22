@@ -14,6 +14,9 @@
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>** - header : usually contains the site name and main menu etc
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">&lt;footer&gt;</a>** - footer : usually contains copyright info、privacy policies etc
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a>** - section : section is the purpose of grouping certain content into sections that are related
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;section&gt;</a>** - article : 
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">&lt;section&gt;</a>** - nav : 
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">&lt;section&gt;</a>** - aside : 
 
 <div class="divider"></div>
 
