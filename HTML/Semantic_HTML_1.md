@@ -23,18 +23,19 @@
 </head>
 <body>
   <header style="background-color:pink;">
+    <h1>News About Covid-19</h1>
     <ul>
-       <li>home</li>
-       <li>page</li>
-       <li>about</li>
-       <li>contact</li>
+       <li>Home</li>
+       <li>News</li>
+       <li>About</li>
+       <li>Contact</li>
      </ul>
    </header>
    <section style="background-color:yellow;">
      <p>content is here</p>
    </section>
    <footer style="background-color:green;">
-   ©copy 2020 abc page
+   ©copy 2020 world health organization
    </footer>
 </body>
 </html>
@@ -45,18 +46,19 @@
 </head>
 <body>
    <header style="background-color:pink;">
+    <h1>News About Covid-19</h1>
     <ul>
-       <li>home</li>
-       <li>page</li>
-       <li>about</li>
-       <li>contact</li>
+       <li>Home</li>
+       <li>News</li>
+       <li>About</li>
+       <li>Contact</li>
      </ul>
    </header>
    <section style="background-color:yellow;">
      <p>content is here</p>
    </section>
    <footer style="background-color:green;">
-   ©copy 2020 abc page
+   ©copy 2020 world health organization
    </footer>
 </body>
 </html>
