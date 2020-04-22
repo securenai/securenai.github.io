@@ -35,8 +35,12 @@
      <h2>Recent News</h2>
      <p>On April 21, the Central Epidemic Command Center (CECC) reported that 1,853 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 20. As of writing, a cumulative total of 55,476 cases have been reported among which COVID-19 has been ruled out in 52,150. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 425 cases (Cases #423-425 confirmed today). Of 425 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 27 are Navy members on the Dunmu (敦睦) Fleet. Of the confirmed cases, there have been 6 deaths, and 217 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
    </section>
+   <section style="background-color:gray;">
+     <h2>About</h2>
+     <p>In recent years, with dramatic increases in international exchange and travel and the number of foreign laborers, various communicable diseases have been imported. Facing the threat of emerging diseases and the recurrence of indigenous communicable diseases, the existing policies on disease prevention, quarantine, and surveillance, and the capabilities of laboratory testing and research are considered inadequate to meet the needs of disease control. In coordination with the rapid development in high technology and the trend of internationalization, disease control must be more comprehensive, prompt, effective and international. The goal of the Centers for Disease Control, therefore, is to combat the threat of communicable diseases.</p>
+   </section>
    <footer style="background-color:green;">
-   ©copy 2020 world health organization
+   Copyright © 2019 Taiwan Centers for Disease Control. All rights reserved.
    </footer>
 </body>
 </html>
@@ -55,15 +59,16 @@
        <li>Contact</li>
      </ul>
    </header>
-   <section style="background-color:gray;">
-     <p></p>
-   </section>
    <section style="background-color:yellow;">
      <h2>Recent News</h2>
      <p>On April 21, the Central Epidemic Command Center (CECC) reported that 1,853 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 20. As of writing, a cumulative total of 55,476 cases have been reported among which COVID-19 has been ruled out in 52,150. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 425 cases (Cases #423-425 confirmed today). Of 425 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 27 are Navy members on the Dunmu (敦睦) Fleet. Of the confirmed cases, there have been 6 deaths, and 217 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
    </section>
+   <section style="background-color:gray;">
+     <h2>About</h2>
+     <p>In recent years, with dramatic increases in international exchange and travel and the number of foreign laborers, various communicable diseases have been imported. Facing the threat of emerging diseases and the recurrence of indigenous communicable diseases, the existing policies on disease prevention, quarantine, and surveillance, and the capabilities of laboratory testing and research are considered inadequate to meet the needs of disease control. In coordination with the rapid development in high technology and the trend of internationalization, disease control must be more comprehensive, prompt, effective and international. The goal of the Centers for Disease Control, therefore, is to combat the threat of communicable diseases.</p>
+   </section>
    <footer style="background-color:green;">
-   ©copy 2020 world health organization
+   Copyright © 2019 Taiwan Centers for Disease Control. All rights reserved.
    </footer>
 </body>
 </html>
