@@ -14,8 +14,8 @@
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>** - header : usually contains the site name and main menu etc
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">&lt;footer&gt;</a>** - footer : usually contains copyright info、privacy policies etc
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a>** - section : section is the purpose of grouping certain content into sections that are related
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;article&gt;</a>** - article : 
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;</a>** - nav : 
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;article&gt;</a>** - article : content that can be syndicated
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;</a>** - nav : a set of links such as the menu bar
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">&lt;aside&gt;</a>** - aside : 
 
 <div class="divider"></div>
@@ -37,13 +37,13 @@
        <li>Contact</li>
      </ul>
    </header>
-   <section style="background-color:yellow;">
+   <section style="background-color:teal;">
      <h2>Recent News</h2>
-     <article style="background-color:teal;">
+     <article style="background-color:yellow;">
      <h4>2020-04-22 News update on covid-19</h4>
      <p>On April 22, the Central Epidemic Command Center (CECC) reported that 1,389 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 21. As of writing, a cumulative total of 56,853 cases have been reported among which COVID-19 has been ruled out in 53,676. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 426 cases (Case #426 confirmed today). Of 426 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 28 are Navy members on the Dunmu Fleet. Of the confirmed cases, there have been 6 deaths, and 236 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
      </article>
-     <article style="background-color:teal;">
+     <article style="background-color:yellow;">
      <h4>2020-04-21 News update on covid-19</h4>
      <p>On April 21, the Central Epidemic Command Center (CECC) reported that 1,853 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 20. As of writing, a cumulative total of 55,476 cases have been reported among which COVID-19 has been ruled out in 52,150. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 425 cases (Cases #423-425 confirmed today). Of 425 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 27 are Navy members on the Dunmu (敦睦) Fleet. Of the confirmed cases, there have been 6 deaths, and 217 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
    </article>
@@ -72,13 +72,13 @@
        <li>Contact</li>
      </ul>
    </header>
-   <section style="background-color:yellow;">
+   <section style="background-color:teal;">
      <h2>Recent News</h2>
-     <article style="background-color:teal;">
+     <article style="background-color:yellow;">
      <h4>2020-04-22 News update on covid-19</h4>
      <p>On April 22, the Central Epidemic Command Center (CECC) reported that 1,389 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 21. As of writing, a cumulative total of 56,853 cases have been reported among which COVID-19 has been ruled out in 53,676. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 426 cases (Case #426 confirmed today). Of 426 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 28 are Navy members on the Dunmu Fleet. Of the confirmed cases, there have been 6 deaths, and 236 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
      </article>
-     <article style="background-color:teal;">
+     <article style="background-color:yellow;">
      <h4>2020-04-21 News update on covid-19</h4>
      <p>On April 21, the Central Epidemic Command Center (CECC) reported that 1,853 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 20. As of writing, a cumulative total of 55,476 cases have been reported among which COVID-19 has been ruled out in 52,150. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 425 cases (Cases #423-425 confirmed today). Of 425 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 27 are Navy members on the Dunmu (敦睦) Fleet. Of the confirmed cases, there have been 6 deaths, and 217 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
    </article>
