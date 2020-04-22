@@ -30,12 +30,14 @@
 <body>
   <header style="background-color:pink;">
     <h1>News About Covid-19</h1>
-    <ul>
-       <li>Home</li>
-       <li>News</li>
-       <li>About</li>
-       <li>Contact</li>
-     </ul>
+    <nav style="background-color:lightcyan;">
+      <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
    </header>
    <section style="background-color:teal;">
      <h2>Recent News</h2>
@@ -64,13 +66,15 @@
 </head>
 <body>
    <header style="background-color:pink;">
-    <h1>News About Covid-19</h1>
-    <ul>
-       <li>Home</li>
-       <li>News</li>
-       <li>About</li>
-       <li>Contact</li>
-     </ul>
+     <h1>News About Covid-19</h1>
+     <nav style="background-color:lightcyan;">
+       <ul>
+         <li>Home</li>
+         <li>News</li>
+         <li>About</li>
+         <li>Contact</li>
+       </ul>
+     </nav>
    </header>
    <section style="background-color:teal;">
      <h2>Recent News</h2>
