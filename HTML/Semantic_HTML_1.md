@@ -65,4 +65,4 @@
 
 參考資料:
 
-1: **<a href="http://html5doctor.com/the-dl-element/" target="_blank">The dl element</a>**
+1: **<a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">Semantics – MDN</a>**
