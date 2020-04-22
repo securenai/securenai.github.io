@@ -36,6 +36,9 @@
    </header>
    <section style="background-color:yellow;">
      <h2>Recent News</h2>
+     <h4>2020-04-22</h4>
+     <p>On April 22, the Central Epidemic Command Center (CECC) reported that 1,389 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 21. As of writing, a cumulative total of 56,853 cases have been reported among which COVID-19 has been ruled out in 53,676. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 426 cases (Case #426 confirmed today). Of 426 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 28 are Navy members on the Dunmu Fleet. Of the confirmed cases, there have been 6 deaths, and 236 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
+     <h4>2020-04-21</h4>
      <p>On April 21, the Central Epidemic Command Center (CECC) reported that 1,853 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 20. As of writing, a cumulative total of 55,476 cases have been reported among which COVID-19 has been ruled out in 52,150. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 425 cases (Cases #423-425 confirmed today). Of 425 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 27 are Navy members on the Dunmu (敦睦) Fleet. Of the confirmed cases, there have been 6 deaths, and 217 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
    </section>
    <section style="background-color:gray;">
@@ -64,6 +67,9 @@
    </header>
    <section style="background-color:yellow;">
      <h2>Recent News</h2>
+     <h4>2020-04-22</h4>
+     <p>On April 22, the Central Epidemic Command Center (CECC) reported that 1,389 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 21. As of writing, a cumulative total of 56,853 cases have been reported among which COVID-19 has been ruled out in 53,676. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 426 cases (Case #426 confirmed today). Of 426 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 28 are Navy members on the Dunmu Fleet. Of the confirmed cases, there have been 6 deaths, and 236 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
+     <h4>2020-04-21</h4>
      <p>On April 21, the Central Epidemic Command Center (CECC) reported that 1,853 additional cases related to coronavirus disease 2019 (COVID-19) were reported on April 20. As of writing, a cumulative total of 55,476 cases have been reported among which COVID-19 has been ruled out in 52,150. Of these reported cases, infection with COVID-19 was laboratory-confirmed in 425 cases (Cases #423-425 confirmed today). Of 425 confirmed cases in Taiwan, 343 are imported and 55 are indigenous while 27 are Navy members on the Dunmu (敦睦) Fleet. Of the confirmed cases, there have been 6 deaths, and 217 patients have been released from isolation, with the remainder remaining hospitalized in isolation.</p>
    </section>
    <section style="background-color:gray;">
