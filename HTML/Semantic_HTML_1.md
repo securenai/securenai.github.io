@@ -22,29 +22,7 @@
 <head>
 </head>
 <body>
-  <header>
-    <ul>
-       <li>home</li>
-       <li>page</li>
-       <li>about</li>
-       <li>contact</li>
-     </ul>
-   </header>
-   <section>
-     <p>content is here</p>
-   </section>
-   <footer>
-   &copy 2020 abc page
-   </footer>
-</body>
-</html>
-```
-結果 : 
-<html>
-<head>
-</head>
-<body>
-   <header style="background-color:red;">
+  <header style="background-color:pink;">
     <ul>
        <li>home</li>
        <li>page</li>
@@ -56,7 +34,29 @@
      <p>content is here</p>
    </section>
    <footer style="background-color:green;">
-   &copy 2020 abc page
+   ©copy 2020 abc page
+   </footer>
+</body>
+</html>
+```
+結果 : 
+<html>
+<head>
+</head>
+<body>
+   <header style="background-color:pink;">
+    <ul>
+       <li>home</li>
+       <li>page</li>
+       <li>about</li>
+       <li>contact</li>
+     </ul>
+   </header>
+   <section style="background-color:yellow;">
+     <p>content is here</p>
+   </section>
+   <footer style="background-color:green;">
+   ©copy 2020 abc page
    </footer>
 </body>
 </html>
