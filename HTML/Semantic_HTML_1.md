@@ -6,7 +6,7 @@
 <a href="/HTML/Semantic_HTML_2/">Semantic HTML 2</a> >>
 <div class="divider"></div>
 
-> Semantic HTML
+> Semantic HTML<br/>
   markup that describes the *meaning* of content instead of how it looks.
 
 ### &lt;header&gt;、&lt;footer&gt; and &lt;section&gt;
