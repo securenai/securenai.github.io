@@ -44,7 +44,7 @@
 <head>
 </head>
 <body>
-   <header>
+   <header style="background-color:red;">
     <ul>
        <li>home</li>
        <li>page</li>
@@ -52,10 +52,10 @@
        <li>contact</li>
      </ul>
    </header>
-   <section>
+   <section style="background-color:yellow;">
      <p>content is here</p>
    </section>
-   <footer>
+   <footer style="background-color:green;">
    &copy 2020 abc page
    </footer>
 </body>
