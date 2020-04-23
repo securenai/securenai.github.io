@@ -17,6 +17,7 @@
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;article&gt;</a>** - article : content that can be syndicated
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;</a>** - nav : an element that represents a major section of navigation
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">&lt;aside&gt;</a>** - aside : 
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">&lt;main&gt;</a>** - main : 
 
 <div class="divider"></div>
 
@@ -39,6 +40,7 @@
       </ul>
     </nav>
    </header>
+   <main style="background-color:brown;>
    <section style="background-color:teal;">
      <h2>Recent News</h2>
      <article style="background-color:yellow;">
@@ -54,6 +56,7 @@
      <h2>About</h2>
      <p>In recent years, with dramatic increases in international exchange and travel and the number of foreign laborers, various communicable diseases have been imported. Facing the threat of emerging diseases and the recurrence of indigenous communicable diseases, the existing policies on disease prevention, quarantine, and surveillance, and the capabilities of laboratory testing and research are considered inadequate to meet the needs of disease control. In coordination with the rapid development in high technology and the trend of internationalization, disease control must be more comprehensive, prompt, effective and international. The goal of the Centers for Disease Control, therefore, is to combat the threat of communicable diseases.</p>
    </section>
+   </main>
    <aside style="background-color:blue;">
      <h2>Learn more about COVID-19</h2>
      <ul>
@@ -84,6 +87,7 @@
        </ul>
      </nav>
    </header>
+   <main style="background-color:brown;">
    <section style="background-color:teal;">
      <h2>Recent News</h2>
      <article style="background-color:yellow;">
@@ -99,6 +103,7 @@
      <h2>About</h2>
      <p>In recent years, with dramatic increases in international exchange and travel and the number of foreign laborers, various communicable diseases have been imported. Facing the threat of emerging diseases and the recurrence of indigenous communicable diseases, the existing policies on disease prevention, quarantine, and surveillance, and the capabilities of laboratory testing and research are considered inadequate to meet the needs of disease control. In coordination with the rapid development in high technology and the trend of internationalization, disease control must be more comprehensive, prompt, effective and international. The goal of the Centers for Disease Control, therefore, is to combat the threat of communicable diseases.</p>
    </section>
+   </main>
    <aside style="background-color:blue;">
      <h2>Learn more about COVID-19</h2>
      <ul>
