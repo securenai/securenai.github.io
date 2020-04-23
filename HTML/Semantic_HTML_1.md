@@ -2,8 +2,8 @@
 <a href="/HTML/">HTML</a> >>
 <a href="/HTML/Headings_Paragraphs_Links/">Headings/Paragraphs/Links</a> >>
 <a href="/HTML/List/">List</a> >>
-<a href="/HTML/Semantic_HTML_1/" style="color:palevioletred;background-color:papayawhip;">Semantic HTML 1</a> >>
-<a href="/HTML/Semantic_HTML_2/">Semantic HTML 2</a> >>
+<a href="/HTML/Semantic_HTML_1/" style="color:palevioletred;background-color:papayawhip;">Semantic HTML </a> >>
+<a href="/HTML/Files_Images/">Files/Images</a> >>
 <div class="divider"></div>
 
 > **Semantic HTML**<br/>
