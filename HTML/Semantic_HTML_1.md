@@ -9,7 +9,7 @@
 > **Semantic HTML**<br/>
   markup that describes the *meaning* of content instead of how it looks.
 
-### &lt;header&gt;、&lt;footer&gt; and &lt;section&gt;
+### In HTML there are some semantic elements that can be used to define different parts of a web page:
 
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">&lt;header&gt;</a>** - header : an element that represents a group of introductory content ,usually contains the site name and main menu etc
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">&lt;footer&gt;</a>** - footer : an element that typically contains information about the site, copyright data or related links
