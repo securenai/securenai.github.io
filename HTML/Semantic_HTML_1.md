@@ -20,7 +20,7 @@
 
 <div class="divider"></div>
 
-### &lt;header&gt;、&lt;section&gt;、&lt;footer&gt;
+### &lt;header&gt;、&lt;section&gt;、&lt;footer&gt;、&lt;article&gt;、&lt;nav&gt;、&lt;aside&gt;
 
 ```
 <!DOCTYPE html>
