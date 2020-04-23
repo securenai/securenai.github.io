@@ -16,8 +16,8 @@
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">&lt;section&gt;</a>** - section : an element that represents standalone sections of content
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;article&gt;</a>** - article : content that can be syndicated
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">&lt;nav&gt;</a>** - nav : an element that represents a major section of navigation
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">&lt;aside&gt;</a>** - aside : 
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">&lt;main&gt;</a>** - main : 
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">&lt;aside&gt;</a>** - aside : an element that represents a section of content that's indirectly related to the main content of the page
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">&lt;main&gt;</a>** - main : an element that represents the main content of the &lt;body&gt; of the page(normally not including `<aside>` inside `<main>`)
 
 <div class="divider"></div>
 
