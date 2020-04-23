@@ -54,6 +54,14 @@
      <h2>About</h2>
      <p>In recent years, with dramatic increases in international exchange and travel and the number of foreign laborers, various communicable diseases have been imported. Facing the threat of emerging diseases and the recurrence of indigenous communicable diseases, the existing policies on disease prevention, quarantine, and surveillance, and the capabilities of laboratory testing and research are considered inadequate to meet the needs of disease control. In coordination with the rapid development in high technology and the trend of internationalization, disease control must be more comprehensive, prompt, effective and international. The goal of the Centers for Disease Control, therefore, is to combat the threat of communicable diseases.</p>
    </section>
+   <aside style="background-color:blue;">
+     <h2>Learn more about COVID-19</h2>
+     <ul>
+         <li>Introduction</li>
+         <li>Known hosts</li>
+         <li>Transmission</li>
+       </ul>
+   </aside>
    <footer style="background-color:green;">
    Copyright © 2019 Taiwan Centers for Disease Control. All rights reserved.
    </footer>
@@ -91,6 +99,14 @@
      <h2>About</h2>
      <p>In recent years, with dramatic increases in international exchange and travel and the number of foreign laborers, various communicable diseases have been imported. Facing the threat of emerging diseases and the recurrence of indigenous communicable diseases, the existing policies on disease prevention, quarantine, and surveillance, and the capabilities of laboratory testing and research are considered inadequate to meet the needs of disease control. In coordination with the rapid development in high technology and the trend of internationalization, disease control must be more comprehensive, prompt, effective and international. The goal of the Centers for Disease Control, therefore, is to combat the threat of communicable diseases.</p>
    </section>
+   <aside style="background-color:blue;">
+     <h2>Learn more about COVID-19</h2>
+     <ul>
+         <li>Introduction</li>
+         <li>Known hosts</li>
+         <li>Transmission</li>
+       </ul>
+   </aside>
    <footer style="background-color:green;">
    Copyright © 2019 Taiwan Centers for Disease Control. All rights reserved.
    </footer>
