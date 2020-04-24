@@ -32,6 +32,14 @@
 ```
 Result : 
 
+<html>
+<head>
+</head>
+<body>
+  <h2>this is an image of a cat</h2>
+  <img src="HTML_images/cat.png"/>
+</body>
+</html>
 
 <div class="divider"></div>
 
