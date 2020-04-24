@@ -12,6 +12,12 @@
 
 <div class="divider"></div>
 
+### Images:
+
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/image" target="_blank">&lt;img&gt;</a>** - Image
+
+<div class="divider"></div>
+
 ### Example
 
 ```
@@ -34,3 +40,7 @@ Result :
 1: **<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files" target="_blank">Dealing with files – MDN</a>**
 
 2: **<a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL" target="_blank">What is a URL? – MDN</a>**
+
+3: **<a href="https://webaim.org/techniques/alttext/" target="_blank">Alternative Text</a>**
+
+4: **<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files" target="_blank">Dealing with files – MDN</a>**
