@@ -26,20 +26,15 @@
 <head>
 </head>
 <body>
-
+  <h2>this is an image of a cat</h2>
+  <img src="images/cat.png"/>
 </body>
 </html>
 ```
 Result : 
 
-<html>
-<head>
-</head>
-<body>
-  <h2>this is an image of a cat</h2>
-  <img src="HTML_images/cat.png"/>
-</body>
-</html>
+<h2>this is an image of a cat</h2>
+![HTML](HTML_images/cat.png)
 
 <div class="divider"></div>
 
