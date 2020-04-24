@@ -21,7 +21,7 @@ HTML (HyperText Markup Language/超文本標記語言) 是建立網頁/網站最
 1. [**HTML 標籤(一) - Headings/Paragraphs/Links**](/HTML/Headings_Paragraphs_Links)
 2. [**HTML 標籤(二) - List**](/HTML/List)
 3. [**HTML 標籤(三) - Semantic HTML**](/HTML/Semantic_HTML_1)
-4. [**HTML 標籤(四) - Files/Images**](/HTML/Semantic_HTML_2)
+4. [**HTML 標籤(四) - Files/Images**](/HTML/Files_Images)
 5. [**HTML 標籤(五) - **](/HTML/TAG_5)
 6. [**HTML 標籤(六) - **](/HTML/TAG_6)
 
