@@ -27,15 +27,24 @@
 </head>
 <body>
   <h2>this is an image of a cat</h2>
-  <img src="images/cat.png"/>
+  <figure>
+  	<img src="images/cat.png"/>
+  	<figcaption>
+    	kanon sad cat
+  	</figcaption>
+  </figure>
 </body>
 </html>
 ```
 Result : 
 
 <h2>this is an image of a cat</h2>
+<figure>
 ![HTML](HTML_images/cat.png)
-
+  <figcaption>
+    kanon sad cat
+  </figcaption>
+</figure>
 <div class="divider"></div>
 
 參考資料:
