@@ -28,7 +28,7 @@
 <body>
   <h2>this is an image of a cat</h2>
   <figure>
-  	<img src="images/cat.png"/>
+  	<img src="images/cat.png"/ alt="cat" title="this is a cat">
   	<figcaption>
     	kanon sad cat
   	</figcaption>
@@ -40,9 +40,9 @@ Result :
 
 <h2>this is an image of a cat</h2>
 <figure>
-![HTML](HTML_images/cat.png)
+![Alt text](HTML_images/cat.png  "this is a cat")
   <figcaption>
-    kanon sad cat
+    this is a cat
   </figcaption>
 </figure>
 <div class="divider"></div>
