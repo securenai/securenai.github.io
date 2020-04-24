@@ -27,12 +27,7 @@
 </head>
 <body>
   <h2>this is an image of a cat</h2>
-  <figure>
-  	<img src="images/cat.png"/">
-  	<figcaption>
-    	kanon sad cat
-  	</figcaption>
-  </figure>
+  <img src="images/cat.png"/">
 </body>
 </html>
 ```
