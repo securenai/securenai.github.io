@@ -15,6 +15,9 @@
 ### Images:
 
 * **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/image" target="_blank">&lt;img&gt;</a>** - Image
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank">&lt;figure&gt;</a>** - figure
+* **<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank">&lt;figcaption&gt;</a>** - figcaption
+
 
 <div class="divider"></div>
 
