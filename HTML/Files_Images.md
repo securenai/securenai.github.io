@@ -39,12 +39,9 @@
 Result : 
 
 <h2>this is an image of a cat</h2>
-<figure>
+
 ![Alt text](HTML_images/cat.png  "this is a cat")
-  <figcaption>
-    this is a cat
-  </figcaption>
-</figure>
+
 <div class="divider"></div>
 
 參考資料:
