@@ -40,7 +40,7 @@ Result :
 
 <h2>this is an image of a cat</h2>
 
-![Alt text](HTML_images/cat.png  "this is a cat")
+![Alt text](HTML_images/cat.png "this is a cat")
 
 <div class="divider"></div>
 
