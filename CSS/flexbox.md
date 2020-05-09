@@ -6,15 +6,41 @@
 <a href="/CSS/???/">???</a> >>
 <div class="divider"></div>
 
-### &lt;ul&gt;、&lt;ol&gt; and &lt;dl&gt;
+### 關於 FlexBox...
 
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Element/ul" target="_blank">&lt;ul&gt;</a>** - unordered list
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Element/ol" target="_blank">&lt;ol&gt;</a>** - ordered list
-* **<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Element/dl" target="_blank">&lt;dl&gt;</a>** - description list
+利用css 的 float、inline-block、position:absolute 等方式有時無法完全滿足現代許多網頁的複雜 RWD 版面設計/配置，而且他們最原先
+的設計也並非為了該目的而生，flexible box layout 提供了一些 css 的屬性讓我們可以有彈性的設置網頁的版面。
 
 <div class="divider"></div>
 
-### &lt;ul&gt;
+### FlexBox 的重要元素
+
+**Flex containers**
+
+1. Sets the context for the flexbox layout
+
+2. Contains flex items, the actual elements you layout using flexbox
+
+3. Can be any block-level or inline element
+
+**Flex items**
+
+1. Every direct child of a flex container
+
+2. There can be any number of flex items in the flex container
+
+![CSS](CSS_images/flexbox_container_example.png)
+
+**Flexbox Axes**
+
+1. Main axis
+
+2. Cross Axis
+
+![CSS](CSS_images/flexbox_container_axis1.png)
+
+![CSS](CSS_images/flexbox_container_axis2.png)
+
 
 ```
 <!DOCTYPE CSS>
@@ -81,4 +107,11 @@
 <div class="divider"></div>
 參考資料:
 
-1: **<a href="http://CSS5doctor.com/the-dl-element/" target="_blank">The dl element</a>**
+1: **<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a>**
+
+2: **<a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a>**
+
+3: **<a href="https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/" target="_blank">Flexbox Playground</a>**
+
+4: **<a href="https://caniuse.com/#search=flexbox" target="_blank">Flexbox - latest browser support</a>**
+
